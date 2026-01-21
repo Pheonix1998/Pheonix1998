@@ -48,6 +48,7 @@ I specialize in using data to drive business decisions, improve operational effi
 - 💼 LinkedIn: https://www.linkedin.com/in/tathagata-chakraborty-26b03a271/  
 - 📧 Email: tathagata4059@gmail.com
 - ## 🌐 Connect With Me
+## 🌐 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/tathagata-chakraborty-26b03a271/)
 [![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:tathagata4059@gmail.com)
