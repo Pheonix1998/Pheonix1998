@@ -51,3 +51,14 @@ I specialize in using data to drive business decisions, improve operational effi
 ---
 
 📌 *I am actively seeking Data Analyst / Business Analyst roles where data is used to solve real business problems and support in strategic decision-making.*
+
+
+---
+
+## 📊 Profile Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Pheonix1998&show_icons=true&theme=dark&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Pheonix1998&layout=compact&theme=dark&hide_border=true)
+
+![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&color=blue&style=flat-square)
