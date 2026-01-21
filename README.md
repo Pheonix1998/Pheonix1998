@@ -57,8 +57,16 @@ I specialize in using data to drive business decisions, improve operational effi
 
 ## 📊 Profile Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Pheonix1998&show_icons=true&theme=dark&hide_border=true)
+<div align="center">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Pheonix1998&layout=compact&theme=dark&hide_border=true)
+<img src="https://github-readme-stats.vercel.app/api?username=Pheonix1998&show_icons=true&theme=dark&hide_border=true" width="80%" />
 
-![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&color=blue&style=flat-square)
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pheonix1998&layout=compact&theme=dark&hide_border=true" width="60%" />
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Pheonix1998&color=blue&style=flat-square" />
+
+</div>
