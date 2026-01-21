@@ -42,7 +42,7 @@ I specialize in using data to drive business decisions, improve operational effi
 ## 🛠️ Tools & Skills
 **Languages & Tools:** SQL | Python | R | Excel | Power BI | Tableau  
 **Analytics Concepts:** EDA | Forecasting | KPI Analysis | OLAP vs OLTP | Business Metrics  
-**Domain Exposure:** Banking | Operations | Supply Chain | Retail Analytics  
+**Domain Exposure:** Banking | Operations | Supply Chain Analytics | Retail decision making  
 
 ---
 ## 🌐 Connect With Me
