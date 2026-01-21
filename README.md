@@ -35,6 +35,8 @@ I specialize in using data to drive business decisions, improve operational effi
   - Built KPI dashboards to monitor performance and turnaround time  
   - Improved reporting clarity for management decision-making  
 
+### 🚀 Interactive Apps
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/?utm_source=streamlit&utm_medium=referral&utm_campaign=main&utm_content=-ss-streamlit-io-topright)
 ---
 
 ## 🛠️ Tools & Skills
