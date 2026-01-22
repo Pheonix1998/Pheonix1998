@@ -55,10 +55,6 @@ I specialize in using data to drive business decisions, improve operational effi
   <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-- <a href="https://discord.com/channels/@me" target="_blank">
-  <img src="https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
-</a>
-
 ---
 
 📌 *I am actively seeking Data Analyst / Business Analyst roles where data is used to solve real business problems and support in strategic decision-making.*
