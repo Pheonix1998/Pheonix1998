@@ -58,7 +58,7 @@ I specialize in using data to drive business decisions, improve operational effi
 </a>
 
 <a href="https://x.com/Tathagata4049" target="_blank">
-  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=X&logoColor=white" />
 </a>
 
 ---
