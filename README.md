@@ -23,11 +23,11 @@ I specialize in using data to drive business decisions, improve operational effi
 ---
 
 ## 📂 Featured Projects
-- 📌 **Bike Sales Analysis & Prediction (Excel)**  
+- 📌 **Sales Analysis & Prediction (Excel)**  
   - Sales trend analysis using Pivot Tables and charts  
   - Identified seasonality patterns to support inventory planning  
 
-- 📌 **House Price Analysis (Python / Visualization)**  
+- 📌 **Price Analysis (Python / Visualization)**  
   - Performed EDA and feature analysis to understand price drivers  
   - Generated insights for pricing strategy and demand trends  
 
