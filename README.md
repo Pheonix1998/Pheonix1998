@@ -55,6 +55,10 @@ I specialize in using data to drive business decisions, improve operational effi
   <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
+<a href="https://x.com/Tathagata4049" target="_blank">
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
+</a>
+
 ---
 
 📌 *I am actively seeking Data Analyst / Business Analyst roles where data is used to solve real business problems and support in strategic decision-making.*
