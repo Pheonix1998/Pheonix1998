@@ -49,16 +49,18 @@ I specialize in using data to drive business decisions, improve operational effi
 
 ## 🌐 Connect With Me
 
-<a href="https://www.linkedin.com/in/tathagata-chakraborty-26b03a271/" target="_blank">
-  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+## ☕ CONNECT WITH ME
+
+- <a href="https://www.linkedin.com/in/tathagata-chakraborty-26b03a271/" target="_blank">
+  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
 
-<a href="mailto:tathagata4059@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+- <a href="https://x.com/Tathagata4049" target="_blank">
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white">
 </a>
 
-<a href="https://x.com/Tathagata4049" target="_blank">
-  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=X&logoColor=white" />
+- <a href="mailto:tathagata4059@gmail.com">
+  <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white">
 </a>
 
 ---
