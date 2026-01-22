@@ -47,10 +47,6 @@ I specialize in using data to drive business decisions, improve operational effi
 ---
 ## 🌐 Connect With Me
 
-## 🌐 Connect With Me
-
-## ☕ CONNECT WITH ME
-
 - <a href="https://www.linkedin.com/in/tathagata-chakraborty-26b03a271/" target="_blank">
   <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
