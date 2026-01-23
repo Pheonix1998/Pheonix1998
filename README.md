@@ -1,76 +1,82 @@
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> Hi, I'm Tathagata Chakraborty
+## 👋 Hi, I’m Tathagata Chakraborty
 
-I am a **Data Analyst and Business Analyst** with hands-on experience in **banking, operations, and analytics**.  
-I specialize in transforming raw data into actionable insights that drive **business decisions, operational efficiency, and measurable impact**.
+![Data Analyst](https://img.shields.io/badge/Data%20Analyst-Analytics-blue?style=flat-square)
+![Business Analyst](https://img.shields.io/badge/Business%20Analyst-Decision%20Support-green?style=flat-square)
+![SQL](https://img.shields.io/badge/SQL-Database-orange?style=flat-square)
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-yellow?style=flat-square)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboards-gold?style=flat-square)
 
----
-
-## <img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" width="28"> About Me
-- 🎓 PGDM in Supply Chain & Analytics  
-- 🏦 Former ICICI Bank professional (MSME & Retail Banking)  
-- 📊 Proficient in SQL, Python, Excel, Power BI, Tableau, and statistical analysis  
-- 🔍 Strong interest in data-driven strategy, process optimization, and decision support  
+![Followers](https://img.shields.io/github/followers/Pheonix1998?label=Followers&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&style=flat-square&color=blue)
 
 ---
 
-## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> What I Do
-- Perform data cleaning, validation, and exploratory data analysis (EDA)  
-- Track business KPIs through MIS reports and executive dashboards  
-- Extract and analyze data using SQL for performance and operational insights  
-- Conduct forecasting and trend analysis using Python and R  
-- Translate analytical findings into clear, actionable business recommendations  
+I am a **Data Analyst and Business Analyst** with hands-on experience across **banking, operations, and analytics**.  
+I focus on converting **raw data into actionable insights** that support **business decisions, operational efficiency, and measurable outcomes**.
 
 ---
 
-## <img src="https://media.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" width="28"> Featured Projects
-- 📌 **Sales Analysis & Prediction (Excel)**  
-  - Analyzed sales trends using Pivot Tables and visualizations  
-  - Identified seasonality patterns to support inventory and demand planning  
+## 🚀 About Me
+- 🎓 PGDM in **Supply Chain & Analytics**  
+- 🏦 Former **ICICI Bank** professional (MSME & Retail Banking)  
+- 📊 Strong working knowledge of **SQL, Python, Excel, Power BI, Tableau**, and statistical analysis  
+- 🔍 Interested in **data-driven strategy, process optimization, and decision support systems**
 
-- 📌 **Price Analysis & Visualization (Python)**  
+---
+
+## 🧠 What I Do
+- Clean, validate, and analyze data using **EDA techniques**  
+- Build **MIS reports and executive dashboards** for KPI tracking  
+- Write **SQL queries** for extraction, joins, aggregations, and insights  
+- Perform **forecasting and trend analysis** using Python and R  
+- Translate analytical results into **clear, business-focused recommendations**
+
+---
+
+## 📌 Featured Projects
+- **Sales Analysis & Prediction (Excel)**  
+  - Identified sales trends and seasonality using Pivot Tables and charts  
+  - Supported inventory and demand planning decisions  
+
+- **Price Analysis & Visualization (Python)**  
   - Conducted EDA to identify key price drivers  
   - Delivered insights to support pricing and demand strategy  
 
-- 📌 **Customer & Operations Analytics (SQL / Power BI)**  
-  - Built KPI dashboards to monitor performance and turnaround time  
-  - Improved management visibility for faster decision-making  
+- **Customer & Operations Analytics (SQL | Power BI)**  
+  - Designed KPI dashboards to track performance and turnaround time  
+  - Improved management visibility and decision speed  
 
 ---
 
-### <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="24"> Interactive Application-Based Dashboard
+## 🖥️ Interactive Application-Based Dashboard
 [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/?utm_source=streamlit&utm_medium=referral&utm_campaign=main&utm_content=-ss-streamlit-io-topright)
 
 ---
 
-## <img src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif" width="28"> Tools & Skills
-**Languages & Tools:** SQL | Python | R | Excel | Power BI | Tableau  
-**Analytics Concepts:** EDA | Forecasting | KPI Analysis | OLAP vs OLTP | Business Metrics  
-**Domain Exposure:** Banking | Operations | Supply Chain Analytics | Retail Decision-Making  
+## 🛠️ Tools & Skills
+**Languages & Tools:**  
+SQL | Python | R | Excel | Power BI | Tableau  
+
+**Analytics Concepts:**  
+EDA | Forecasting | KPI Analysis | OLAP vs OLTP | Business Metrics  
+
+**Domain Exposure:**  
+Banking | Operations | Supply Chain Analytics | Retail Decision-Making  
 
 ---
 
-## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="28"> Connect With Me
-
-<a href="https://www.linkedin.com/in/tathagata-chakraborty-26b03a271/" target="_blank">
-  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-
-<a href="https://x.com/Tathagata4049" target="_blank">
-  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white">
-</a>
-
-<a href="mailto:tathagata4059@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
+## 🤝 Connect With Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tathagata%20Chakraborty-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tathagata-chakraborty-26b03a271/)
+[![X](https://img.shields.io/badge/X-@Tathagata4049-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/Tathagata4049)
+[![Email](https://img.shields.io/badge/Email-tathagata4059%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:tathagata4059@gmail.com)
 
 ---
 
-📌 *Actively seeking Data Analyst / Business Analyst roles where analytics is used to solve real business problems and support strategic decision-making.*
+📌 *Actively seeking **Data Analyst / Business Analyst** roles where analytics is applied to solve real business problems and support strategic decision-making.*
 
 ---
 
-## <img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="28"> GitHub Profile Stats
-
+## 📊 GitHub Profile Stats
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=Pheonix1998&show_icons=true&theme=dark&hide_border=true" width="80%" />
@@ -78,9 +84,5 @@ I specialize in transforming raw data into actionable insights that drive **busi
 <br/><br/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pheonix1998&layout=compact&theme=dark&hide_border=true" width="60%" />
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=Pheonix1998&color=blue&style=flat-square" />
 
 </div>
