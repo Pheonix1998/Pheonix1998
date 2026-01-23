@@ -31,9 +31,9 @@ I focus on converting **raw data into actionable insights** that support **busin
   - Conducted EDA to identify key price drivers  
   - Delivered insights to support pricing and demand strategy  
 
-- **Customer & Operations Analytics (SQL | Power BI)**  
+- **Customer & Operations Analytics (SQL | Power BI | Tableau )**  
   - Designed KPI dashboards to track performance and turnaround time  
-  - Improved management visibility and decision speed  
+  - Improved management visibility and decision speed
 
 ---
 
