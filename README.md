@@ -22,11 +22,11 @@ I am a Business Analyst with hands-on experience across business banking, supply
 ---
 
 ## 📌 Featured Projects
-- **Sales Analysis & Prediction (Excel)**  
+- **Sales Analysis & Prediction (Excel | R)**  
   - Identified sales trends and seasonality using Pivot Tables and charts  
   - Supported inventory and demand planning decisions  
 
-- **Price Analysis & Visualization (Python)**  
+- **Price Analysis & Visualization (Streamlit-Python)**  
   - Conducted EDA to identify key price drivers  
   - Delivered insights to support pricing and demand strategy  
 
