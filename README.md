@@ -12,7 +12,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 ---
 
-## 🧠 What I Do
+## 🧠 What I Do ?
 - Clean, validate, and analyze data using **EDA techniques**  
 - Build **MIS reports and executive dashboards** for KPI tracking  
 - Write **SQL queries** for extraction, joins, aggregations, and insights  
