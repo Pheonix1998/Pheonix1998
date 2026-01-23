@@ -1,16 +1,5 @@
 ## 👋 Hi, I’m Tathagata Chakraborty
 
-![Data Analyst](https://img.shields.io/badge/Data%20Analyst-Analytics-blue?style=flat-square)
-![Business Analyst](https://img.shields.io/badge/Business%20Analyst-Decision%20Support-green?style=flat-square)
-![SQL](https://img.shields.io/badge/SQL-Database-orange?style=flat-square)
-![Python](https://img.shields.io/badge/Python-Data%20Analysis-yellow?style=flat-square)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboards-gold?style=flat-square)
-
-![Followers](https://img.shields.io/github/followers/Pheonix1998?label=Followers&style=flat-square)
-![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&style=flat-square&color=blue)
-
----
-
 I am a **Data Analyst and Business Analyst** with hands-on experience across **banking, operations, and analytics**.  
 I focus on converting **raw data into actionable insights** that support **business decisions, operational efficiency, and measurable outcomes**.
 
@@ -66,9 +55,17 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 ---
 
 ## 🤝 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tathagata%20Chakraborty-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tathagata-chakraborty-26b03a271/)
-[![X](https://img.shields.io/badge/X-@Tathagata4049-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/Tathagata4049)
-[![Email](https://img.shields.io/badge/Email-tathagata4059%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:tathagata4059@gmail.com)
+<a href="https://www.linkedin.com/in/tathagata-chakraborty-26b03a271/" target="_blank">
+  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+
+<a href="https://x.com/Tathagata4049" target="_blank">
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white">
+</a>
+
+<a href="mailto:tathagata4059@gmail.com">
+  <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
 
 ---
 
@@ -84,5 +81,9 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 <br/><br/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pheonix1998&layout=compact&theme=dark&hide_border=true" width="60%" />
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Pheonix1998&color=blue&style=flat-square" />
 
 </div>
