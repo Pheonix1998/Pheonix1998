@@ -31,7 +31,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
   - Delivered insights to support pricing and demand strategy  
 
 - **Customer & Operations Analytics (SQL | Power BI | Tableau )**  
-  - Designed KPI dashboards to track performance and turnaround time  
+  - Designed KPI dashboards to track product performance and service turnaround time  
   - Improved management visibility and decision speed
 
 ---
