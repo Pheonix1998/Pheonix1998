@@ -1,76 +1,60 @@
-## 👋 Hi, I’m **Tathagata Chakraborty**
-**Business Analyst | Data-Driven Decision Support | Banking & Supply Chain Analytics**
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> Hi, I'm Tathagata Chakraborty
 
-I specialize in **transforming raw, fragmented data into structured insights** that improve **business decisions, operational efficiency, and strategic visibility**.
+I am a Business Analyst with hands-on experience across business banking, supply chain and analytics. I focus on converting raw data into actionable insights that support **business decisions, operational efficiency, and measurable outcomes**.
 
 ---
 
-## 🚀 Professional Snapshot
+## 🚀 About Me
 - 🎓 PGDM in **Supply Chain & Analytics**
-- 🏦 Ex–**ICICI Bank** (MSME & Retail Banking)
-- 📊 Strong hands-on experience with **SQL, Python, Excel, Power BI, Tableau**
-- 🔍 Focused on **decision support, KPI tracking, forecasting, and process optimization**
+- 🏦 Former **ICICI Bank** professional (MSME & Retail Banking)
+- 📊 Strong working knowledge of **SQL, Python, Excel, Power BI, Tableau**, and statistical analysis
+- 🔍 Interested in **data-driven strategy, process optimization, and decision support systems**
 
 ---
 
-## 🧠 What I Deliver as a Business Analyst
-- **Data Cleaning & Validation** using EDA and statistical checks  
-- **MIS & Executive Dashboards** for KPI monitoring and management reporting  
-- **SQL-Based Analysis** (joins, aggregations, trend & variance analysis)  
-- **Forecasting & Trend Analysis** using Python / R  
-- **Business Narratives** that convert analysis into **actionable recommendations**
+## 🧠 What I Deliver as a Business Analyst ?
+- Clean, validate, and analyze data using **EDA techniques**
+- Build **MIS reports and executive dashboards** for KPI tracking
+- Write **SQL queries** for extraction, joins, aggregations, and insights
+- Perform **forecasting and trend analysis** using Python and R
+- Translate analytical results into **clear, business-focused recommendations**
 
 ---
 
-## 📌 Featured Analytics Projects
+## 📌 Featured Projects
+- **Sales Analysis & Price Prediction (Excel | PYTHON)**
+  - Identified sales trends and seasonality using Pivot Tables and charts
+  - Supported inventory and demand planning decisions
 
-### 🔹 Sales Analysis & Forecasting *(Excel | Python)*
-- Identified **seasonality and demand trends** using EDA and Pivot analysis  
-- Supported **inventory planning and demand forecasting decisions**  
-- Improved visibility into **monthly and product-level sales drivers**
+- **Price Analysis & Visualization (Streamlit-Python | TABLEAU)**
+  - Conducted EDA to identify key price drivers
+  - Delivered insights to support pricing and demand strategy
 
----
-
-### 🔹 Price Analysis & Visualization *(Python–Streamlit | Tableau)*
-- Analyzed **key price drivers and demand sensitivity**  
-- Built interactive dashboards for **management-level exploration**  
-- Enabled **pricing and promotion strategy discussions**
-
----
-
-### 🔹 Customer & Operations Analytics *(SQL | Power BI | Tableau)*
-- Designed **KPI dashboards** for product performance and turnaround time  
-- Improved **decision speed and operational transparency**  
-- Used SQL joins and aggregations for **cross-functional insights**
+- **Customer & Operations Analytics (SQL | Power BI | Tableau )**
+  - Designed KPI dashboards to track product performance and service turnaround time
+  - Improved management visibility and decision speed
 
 ---
 
-## 🖥️ Interactive Dashboard Application
+## 🖥️ Interactive Application-Based Dashboard
 [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/?utm_source=streamlit&utm_medium=referral&utm_campaign=main&utm_content=-ss-streamlit-io-topright)
 
 ---
 
-## 🛠️ Tools & Analytics Stack
+## 🛠️ Tools & Skills
 
-**Languages & BI Tools**  
+**Languages & Tools:**  
 SQL | Python | R | Excel | Power BI | Tableau  
 
-**Analytics Concepts**  
-EDA | Forecasting | KPI Design | OLAP vs OLTP | Business Metrics  
+**Analytics Concepts:**  
+EDA | Forecasting | KPI Analysis | OLAP vs OLTP | Business Metrics  
 
-**Domain Exposure**  
+**Domain Exposure:**  
 Banking | Operations | Supply Chain Analytics | Retail Decision-Making  
 
 ---
 
-## 📊 GitHub Highlights
-- Repositories focused on **real-world business datasets**
-- Emphasis on **SQL logic, dashboarding, and decision-oriented insights**
-- Clean, reproducible analysis suitable for **interviews and case discussions**
-
----
-
-## 🤝 Let’s Connect
+## 🤝 Let's Connect
 <a href="https://www.linkedin.com/in/tathagata-chakraborty-26b03a271/" target="_blank">
 <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
@@ -93,5 +77,4 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 ---
 
-📌 **Actively seeking Data Analyst / Business Analyst roles** where analytics drives  
-**measurable business impact and strategic decision-making**.
+📌 *Actively seeking **Data Analyst / Business Analyst** roles where analytics is applied to solve real business problems and support strategic decision-making.*
