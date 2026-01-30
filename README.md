@@ -73,15 +73,11 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 ---
 
 ## 📊 GitHub Profile Stats
-<div align="center">
+![Repos](https://img.shields.io/badge/Public_Repos-4-blue?style=for-the-badge)
+![Stars](https://img.shields.io/badge/Stars-4-yellow?style=for-the-badge)
+![Followers](https://img.shields.io/badge/Followers-0-lightgrey?style=for-the-badge)
 
-<img src="https://github-readme-stats.vercel.app/api?username=Pheonix1998&show_icons=true&theme=dark&hide_border=true" width="80%" />
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pheonix1998&layout=compact&theme=dark&hide_border=true" width="60%" />
-
-<br/><br/>
+![Top Languages](https://img.shields.io/badge/Top_Languages-Python%20%7C%20SQL%20%7C%20R-success?style=for-the-badge)
 
 <img src="https://komarev.com/ghpvc/?username=Pheonix1998&color=blue&style=flat-square" />
 
@@ -89,8 +85,4 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 ## 📊 GitHub Profile Stats
 
-![Repos](https://img.shields.io/badge/Public_Repos-4-blue?style=for-the-badge)
-![Stars](https://img.shields.io/badge/Stars-4-yellow?style=for-the-badge)
-![Followers](https://img.shields.io/badge/Followers-0-lightgrey?style=for-the-badge)
 
-![Top Languages](https://img.shields.io/badge/Top_Languages-Python%20%7C%20SQL%20%7C%20R-success?style=for-the-badge)
