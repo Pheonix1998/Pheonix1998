@@ -94,5 +94,3 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 ![Followers](https://img.shields.io/badge/Followers-0-lightgrey?style=for-the-badge)
 
 ![Top Languages](https://img.shields.io/badge/Top_Languages-Python%20%7C%20SQL%20%7C%20R-success?style=for-the-badge)
-
-![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&style=for-the-badge)
