@@ -53,7 +53,7 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 ---
 
-## 🤝 Connect With Me
+## 🤝 Let's Connect
 ## 📊 GitHub Profile Stats
 
 ![Stars](https://img.shields.io/github/stars/Pheonix1998?style=for-the-badge)
@@ -67,13 +67,3 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 📌 *Actively seeking **Data Analyst / Business Analyst** roles where analytics is applied to solve real business problems and support strategic decision-making.*
 
 ---
-
-
-## 📊 GitHub Profile Stats
-
-![Repos](https://img.shields.io/github/repo-count/Pheonix1998?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/Pheonix1998?style=for-the-badge)
-![Followers](https://img.shields.io/github/followers/Pheonix1998?style=for-the-badge)
-
-![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&style=for-the-badge)
-![Languages](https://img.shields.io/badge/Primary_Tools-SQL%20%7C%20Python%20%7C%20R-success?style=for-the-badge)
