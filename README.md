@@ -72,7 +72,7 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 ---
 
-## 📊 GitHub Profile Stats
+
 ## 📊 GitHub Profile Stats
 
 ![Repos](https://img.shields.io/github/repo-count/Pheonix1998?style=for-the-badge)
