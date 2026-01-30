@@ -22,11 +22,11 @@ I am a Business Analyst with hands-on experience across business banking, supply
 ---
 
 ## 📌 Featured Projects
-- **Sales Analysis & Prediction (Excel | R)**  
+- **Sales Analysis & Prediction (Excel | PYTHON)**  
   - Identified sales trends and seasonality using Pivot Tables and charts  
   - Supported inventory and demand planning decisions  
 
-- **Price Analysis & Visualization (Streamlit-Python)**  
+- **Price Analysis & Visualization (Streamlit-Python | TABLEAU)**  
   - Conducted EDA to identify key price drivers  
   - Delivered insights to support pricing and demand strategy  
 
@@ -67,8 +67,6 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 ![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&style=for-the-badge)
 
 ![Primary Tools](https://img.shields.io/badge/Primary_Tools-SQL%20%7C%20Python%20%7C%20R-success?style=for-the-badge)
-
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Pheonix1998&show_icons=true&theme=dark&hide_border=true" width="80%" /> <br/><br/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pheonix1998&layout=compact&theme=dark&hide_border=true" width="60%" /> <br/><br/> <img src="https://komarev.com/ghpvc/?username=Pheonix1998&color=blue&style=flat-square" /> </div>
 
 ---
 
