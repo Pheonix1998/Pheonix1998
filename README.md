@@ -87,10 +87,9 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 </div>
 
-## 📊 GitHub Profile Stats
+## 📊 GitHub Profile Snapshot
 
-![GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Pheonix1998&show_icons=true&theme=dark&hide_border=true)
-
-![Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Pheonix1998&layout=compact&theme=dark&hide_border=true)
-
+![Repos](https://img.shields.io/badge/Public_Repos-4-blue)
+![Stars](https://img.shields.io/badge/Stars-4-yellow)
+![Followers](https://img.shields.io/badge/Followers-0-lightgrey)
 ![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&style=flat-square)
