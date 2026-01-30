@@ -73,12 +73,11 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 ---
 
 ## 📊 GitHub Profile Stats
-![Repos](https://img.shields.io/badge/Public_Repos-4-blue?style=for-the-badge)
-![Stars](https://img.shields.io/badge/Stars-4-yellow?style=for-the-badge)
-![Followers](https://img.shields.io/badge/Followers-0-lightgrey?style=for-the-badge)
+## 📊 GitHub Profile Stats
 
-![Top Languages](https://img.shields.io/badge/Top_Languages-Python%20%7C%20SQL%20%7C%20R-success?style=for-the-badge)
+![Repos](https://img.shields.io/github/repo-count/Pheonix1998?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/Pheonix1998?style=for-the-badge)
+![Followers](https://img.shields.io/github/followers/Pheonix1998?style=for-the-badge)
 
-<img src="https://komarev.com/ghpvc/?username=Pheonix1998&color=blue&style=flat-square" />
-
-</div>
+![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&style=for-the-badge)
+![Languages](https://img.shields.io/badge/Primary_Tools-SQL%20%7C%20Python%20%7C%20R-success?style=for-the-badge)
