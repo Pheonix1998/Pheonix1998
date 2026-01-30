@@ -64,7 +64,7 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 ![Stars](https://img.shields.io/github/stars/Pheonix1998?style=for-the-badge)
 ![Followers](https://img.shields.io/github/followers/Pheonix1998?style=for-the-badge)
 ![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&style=for-the-badge)
-![Primary Tools](https://img.shields.io/badge/Primary_Tools-SQL%20%7C%20Python%20%7C%20R-success?style=for-the-badge)
+![Primary Tools](https://img.shields.io/badge/Primary_Tools-EXCEL%20%7C%20SQL%20%7C%20PYTHON%20%7C%20STREAMLIT%20%7C%20TABLEAU-2F3E46?style=for-the-badge)
 
 ---
 
