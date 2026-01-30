@@ -86,3 +86,11 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 <img src="https://komarev.com/ghpvc/?username=Pheonix1998&color=blue&style=flat-square" />
 
 </div>
+
+## 📊 GitHub Profile Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Pheonix1998&show_icons=true&theme=dark&hide_border=true&cache_seconds=1800)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Pheonix1998&layout=compact&theme=dark&hide_border=true&cache_seconds=1800)
+
+![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&color=blue&style=flat-square)
