@@ -60,12 +60,10 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 </a> <a href="mailto:tathagata4059@gmail.com"> <img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white"> </a>
 
-## 📊 GitHub Profile Stats
-
+## 📊 GitHub Stats
 ![Stars](https://img.shields.io/github/stars/Pheonix1998?style=for-the-badge)
 ![Followers](https://img.shields.io/github/followers/Pheonix1998?style=for-the-badge)
 ![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&style=for-the-badge)
-
 ![Primary Tools](https://img.shields.io/badge/Primary_Tools-SQL%20%7C%20Python%20%7C%20R-success?style=for-the-badge)
 
 ---
@@ -73,7 +71,3 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 📌 *Actively seeking **Data Analyst / Business Analyst** roles where analytics is applied to solve real business problems and support strategic decision-making.*
 
 ---
-![Stars](https://img.shields.io/github/stars/Pheonix1998?style=for-the-badge)
-![Followers](https://img.shields.io/github/followers/Pheonix1998?style=for-the-badge)
-![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&style=for-the-badge)
-![Primary Tools](https://img.shields.io/badge/Primary_Tools-SQL%20%7C%20Python%20%7C%20R-success?style=for-the-badge)
