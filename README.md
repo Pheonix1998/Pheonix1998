@@ -43,9 +43,6 @@ I am a Business Analyst with hands-on experience across business banking, supply
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
 </a>
 
-  <a href="https://share.streamlit.io/?utm_source=streamlit&utm_medium=referral&utm_campaign=main&utm_content=-ss-streamlit-io-topright" target="_blank">
-    <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
-  </a>
 ## 🛠️ Tools & Skills
 
 **Languages & Tools:**  
