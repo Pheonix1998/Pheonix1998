@@ -42,7 +42,6 @@ I am a Business Analyst with hands-on experience across business banking, supply
 <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/vizzes" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
 </a>
----
 
 ## 🛠️ Tools & Skills
 
