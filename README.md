@@ -38,6 +38,9 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 ## 🖥️ Interactive Application-Based Dashboard
 [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/?utm_source=streamlit&utm_medium=referral&utm_campaign=main&utm_content=-ss-streamlit-io-topright)
+<a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/vizzes" target="_blank">
+<img src="https://img.shields.io/badge/TABLEAU-E97627?style=for-the-badge&logo=tableau&logoColor=white">
+</a>
 
 ---
 
