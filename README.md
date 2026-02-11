@@ -20,7 +20,6 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 ---
 
-## 📌 Featured Projects
 ## 📂 Featured Portfolio Projects
 
 ### 1. 🎮 Global Game Sales Analysis
