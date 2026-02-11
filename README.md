@@ -22,10 +22,9 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 ## 📂 Featured Portfolio Projects
 <a href="https://github.com/Pheonix1998/PROJECTS">
-  <img src="https://img.shields.io/badge/📂_View_Complete_Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/My_Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 <br><br>
-
 
 ### 1. 🎮 Global Game Sales Analysis
 **Tools:** Python | Streamlit | SQL | Tableau
