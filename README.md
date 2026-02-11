@@ -32,7 +32,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
 * **(f) Recommendation:** Shift R&D budget toward "Shooter" titles (high engagement) and target the Japanese market specifically for Role-Playing Games (RPGs).
 ---
 
-### 2. 🚖 Ola Ride-Hailing Operations Analysis
+### 2. 🚖 Ride-Hailing Service Operations Analysis
 **Tools:** Python | Streamlit | Root Cause Analysis | SQL | Tableau
 * **(a) Executive Summary:** Analyzed booking-level data to evaluate fleet utilization, cancellation patterns, and revenue leakage.
 * **(b) Business Problem:** A high booking failure rate (~38%) and operational inefficiencies were leading to significant revenue loss and customer dissatisfaction.
@@ -52,7 +52,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
 * **(f) Recommendation:** Introduce differential premium pricing for high-risk segments (Smokers/High BMI) and launch preventive wellness programs to lower claims.
 ---
 
-### 4. ✈️ British Airways Customer Experience Dashboard
+### 4. ✈️ Airways Customer Experience Dashboard
 **Tools:** Python | Tableau | Sentiment Analysis
 * **(a) Executive Summary:** Analyzed customer reviews across countries and aircraft types to benchmark service quality.
 * **(b) Business Problem:** Inconsistent customer satisfaction scores (CSAT) across regions required a data-driven approach to identify service gaps.
