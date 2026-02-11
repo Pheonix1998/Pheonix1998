@@ -56,8 +56,8 @@ I am a Business Analyst with hands-on experience across business banking, supply
 **Tools:** Python | Tableau | Sentiment Analysis
 * **(a) Executive Summary:** Analyzed customer reviews across countries and aircraft types to benchmark service quality.
 * **(b) Business Problem:** Inconsistent customer satisfaction scores (CSAT) across regions required a data-driven approach to identify service gaps.
-* **(c) Methodologies:** Built a Power BI dashboard with dynamic slicers (Country, Traveler Type) and used DAX for custom service metrics.
-* **(d) Skills:** Data Visualization, Measure Creation (DAX), Customer Segmentation.
+* **(c) Methodologies:** Built a Tableau dashboard with dynamic slicers (Country, Traveler Type) and used calculated fields for custom service metrics.
+* **(d) Skills:** Data Visualization, Measure Creation, Customer Segmentation.
 * **(e) Results:** "Food" and "Seat Comfort" were the lowest-rated categories. Embraer aircraft outperformed the fleet, while Vietnam/Panama routes lagged in ratings.
 * **(f) Recommendation:** Prioritize cabin upgrades for "Seat Comfort" and launch targeted service recovery training for low-performing regions.
 
