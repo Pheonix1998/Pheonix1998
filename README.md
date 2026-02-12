@@ -124,4 +124,71 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 ---
 
+
+
+
+### 1. 🚖 Operations: Reducing Ride-Hailing Revenue Leakage
+**The Business Problem:** A ride-hailing platform was experiencing a **38% booking failure rate**, leading to significant revenue loss and customer churn. Operations needed to identify if this was a supply (driver) or demand (customer) issue.
+
+**The Solution:**
+* Developed a **Streamlit Web App** to track real-time KPIs including Turnaround Time and Cancellation Reasons.
+* Conducted **Gap Analysis** on Driver vs. Customer ratings to identify service quality disconnects.
+
+**Key Findings & Recommendations:**
+* **Root Cause Identified:** Driver-side issues (cancellations + "driver not found") caused **~28% of all failures**.
+* **The "Stationary" Problem:** The #1 cause of customer cancellation (84k+ instances) was **"Driver not moving towards pickup."**
+* **Strategic Recommendation:** Implement immediate GPS-based penalties for stationary drivers post-acceptance and incentivize UPI payments, which showed significantly lower cancellation rates than cash bookings.
+
+**Technologies:** Python, Streamlit, Root Cause Analysis, Tableau
+<br>
+![Ola Dashboard Screenshot](Link_To_Your_Image_Here)
+
+---
+
+### 2. 🎮 Strategy: Optimizing Global Game Development Budget
+**The Business Problem:** A gaming studio needed to allocate their R&D budget for the next fiscal year. They required a data-driven strategy to identify high-ROI genres and platforms.
+
+**The Solution:**
+* Integrated disparate Game and Sales datasets using **SQL Joins**.
+* Built a **Tableau Dashboard** to perform sentiment analysis and revenue mapping across global regions.
+
+**Key Findings & Recommendations:**
+* **Revenue Drivers:** Identified "Action" & "Shooter" as the top revenue genres, generating over **$1B combined**.
+* **The "Quality Gate":** Discovered a "Sweet Spot" rating of **3.5–4.0**; games falling below this threshold saw a steep drop-off in sales, validating the need for stricter quality control.
+* **Strategic Recommendation:** Shift R&D budget toward "Shooter" titles (highest engagement per user) and specifically target the **Japanese market** for Role-Playing Games (RPGs), where they outperform global averages.
+
+**Technologies:** SQL, Python (EDA), Tableau, KPI Dashboarding
+<br>
+![Game Sales Dashboard Screenshot](Link_To_Your_Image_Here)
+
+---
+
+### 3. ⚕️ Risk Management: Health Insurance Pricing Model
+**The Business Problem:** An insurer needed to refine their underwriting criteria to prevent loss ratios from spiraling. They needed to quantify exactly how lifestyle choices (Smoking, BMI) impact claim charges.
+
+**The Solution:**
+* Applied **Machine Learning** models to predict pricing trends based on risk factors.
+* Performed statistical segmentation to validate premium tiers.
+
+**Key Findings & Recommendations:**
+* **The "Smoking Multiplier":** Smokers pay **~4x higher charges** than non-smokers on average.
+* **Compound Risk:** High BMI alone increases costs, but the combination of **Obesity + Smoking** results in the highest claim costs in the dataset (exponential increase).
+* **Strategic Recommendation:** Introduce a differential premium pricing tier for the "High BMI + Smoker" segment and launch a preventive wellness program, as reducing BMI in this segment offers the highest potential for claim reduction.
+
+**Technologies:** Python (Scikit-Learn), Statistical Analysis, SQL
+<br>
+![Insurance Dashboard Screenshot](Link_To_Your_Image_Here)
+
+---
+
+## 📂 Additional Analysis
+
+| Project | Domain | Business Outcome | Tools |
+| :--- | :--- | :--- | :--- |
+| **Airways CX Dashboard** | Aviation | Benchmarked service gaps; identified **Embraer aircraft** as the fleet leader in customer satisfaction. | Tableau, Python |
+| **Real Estate Pricing** | Real Estate | determined that **Location** drives price significantly more than Furnishing Status, guiding investment strategy. | Power BI |
+| **Bike Sales Segmentation** | Retail | Created a customer profile targeting **middle-aged professionals (31-53)** with short commutes for max conversion. | Excel |
+
+---
+
 📌 *Actively seeking **Business Analyst / Data Analyst** roles where analytics is applied to solve real business problems and support strategic decision-making.*
