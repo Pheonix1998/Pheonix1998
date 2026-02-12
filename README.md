@@ -127,3 +127,46 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 📌 *Actively seeking **Business Analyst / Data Analyst** roles where analytics is applied to solve real business problems and support strategic decision-making.*
 
 
+## 🏆 Flagship Case Studies
+
+### 1. 🎮 Global Video Game Sales Strategy
+**Business Domain:** Product Strategy & Market Analysis
+**Tools:** Python | SQL | Tableau
+> [**View Project Files & Code ↗**](./LINK_TO_YOUR_GAME_PROJECT_FOLDER)
+
+**The Business Problem:**
+The studio needed to identify high-ROI investment opportunities for future "AAA" titles. Historical sales data was fragmented, making it difficult to pinpoint which specific genres and platforms yield the highest engagement-per-dollar.
+
+**Methodology:**
+* **Data Integration:** Utilized **SQL Joins** to merge global sales figures with user engagement metrics (Critic Scores, User Counts, Wishlists).
+* **Sentiment Forecasting:** Correlated "Wishlist Velocity" with final sales outcomes to predict demand for upcoming releases.
+
+**Key Results:**
+* **Revenue Drivers:** Identified "Action" & "Shooter" genres as the primary earners, generating **$1B+ in combined revenue**.
+* **The "Quality Gate":** Discovered a specific rating "Sweet Spot" of **3.5–4.0**. Games scoring below 3.5 see a **60% steep revenue drop-off**, regardless of marketing spend.
+* **Market Dominance:** While Nintendo holds **46%** global market share, the "Shooter" genre offers the highest opportunity for competitors due to high engagement-per-title.
+
+**Strategic Recommendation:**
+Shift R&D budget toward "Shooter" titles (highest ROI). Implement a strict **"Quality Gate" policy**: any title projected to score under 3.5 must be delayed for refinement to avoid revenue collapse.
+
+---
+
+### 2. 🚖 Ride-Hailing Service Operations Review
+**Business Domain:** Operational Efficiency & Root Cause Analysis
+**Tools:** Python (Streamlit) | Gap Analysis | Root Cause Analysis
+> [**View Project Files & Code ↗**](./LINK_TO_YOUR_OLA_PROJECT_FOLDER)
+
+**The Business Problem:**
+The platform faced a critical **~38% booking failure rate**, leading to massive revenue leakage. Management needed to determine if this was a demand-side issue (customer cancellations) or a supply-side issue (driver behavior) to fix the algorithm.
+
+**Methodology:**
+* **Root Cause Analysis:** Segmented cancellation reasons to attribute fault using Python.
+* **Gap Analysis:** Compared driver self-ratings vs. actual customer feedback to find perception mismatches in the "Auto" and "eBike" segments.
+
+**Key Results:**
+* **The "Fake" Demand:** Driver-side issues (Cancellations + "Driver Not Found") caused **~28%** of all booking failures.
+* **The Loophole:** The #1 customer complaint (84k+ cases) was **"Driver not moving,"** indicating drivers were gaming the acceptance system to lock in incentives without completing rides.
+* **Payment Friction:** **Cash bookings** had significantly higher cancellation rates; UPI bookings showed near-perfect completion rates.
+
+**Strategic Recommendation:**
+Update the assignment algorithm to detect **"Zero Displacement"** (stationary drivers) after acceptance and automatically reassign the ride to prevent customer churn. Incentivize **UPI payments** to reduce cancellation risks.
