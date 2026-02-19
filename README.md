@@ -23,7 +23,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
 ## 📂 Featured Portfolio Projects -<a href="https://github.com/Pheonix1998/PROJECTS"><img src="https://img.shields.io/badge/My_Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
 ### 1.  🎵 Music Sales Analysis – Revenue & Customer Insights
 
-**Tools Used:** SQL (SQL Server) | Python | Streamlit
+**Tools Used:** SQL (SQL Server) | Python | Streamlit Dshboard
 
 ---
 
@@ -130,7 +130,6 @@ This allows users to filter by year, country, and genre to explore the data.
 ### 💡 Business Recommendations
 
 - Use the clean reporting table for all future dashboards  
-- Add automatic checks to ensure revenue numbers remain accurate  
 - Launch bundle offers for frequently bought-together tracks  
 - Target repeat customers with personalized promotions  
 - Focus marketing on high-revenue genres  
