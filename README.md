@@ -159,23 +159,6 @@ Users can filter by year, country, and genre.
 - Invest more in high-revenue genres  
 
 ---
-
-### 🚀 What This Project Demonstrates
-
-- Strong SQL and data cleaning skills  
-- Ability to validate financial data  
-- Clear business thinking  
-- End-to-end analytics workflow  
-- Dashboard storytelling for decision-making  
-
-## 🖥️ Interactive Application-Based Dashboards
-[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/?utm_source=streamlit&utm_medium=referral&utm_campaign=main&utm_content=-ss-streamlit-io-topright)
-
-<a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/vizzes" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
-</a>
-
-
 ---
 
 ## 🚖 Ride-Hailing Operations Intelligence – Reducing Booking Failures & Revenue Leakage  
@@ -351,7 +334,14 @@ This enables real-time operational monitoring.
 - Business-focused dashboard design  
 
 ---
+## 🖥️ Interactive Application-Based Dashboards
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/?utm_source=streamlit&utm_medium=referral&utm_campaign=main&utm_content=-ss-streamlit-io-topright)
 
+<a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/vizzes" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
+</a>
+
+---
 ## 🛠️ Tools & Skills
 
 **Languages & Tools:**  
