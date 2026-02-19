@@ -175,6 +175,192 @@ Users can filter by year, country, and genre.
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
 </a>
 
+
+---
+
+## 🚖 Ride-Hailing Operations Intelligence – Reducing Booking Failures & Revenue Leakage  
+<a href="YOUR_GITHUB_LINK_HERE">
+<img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+**Tools Used:** Python | SQL | Streamlit | Data Visualization  
+
+---
+
+## 📌 Project Context
+
+This project analyzes end-to-end booking data from a ride-hailing platform to understand:
+
+- Why bookings fail  
+- Where revenue is leaking  
+- How driver behavior impacts performance  
+- How payment method affects ride completion  
+
+The focus was operational efficiency and revenue realization — not just dashboard creation.
+
+---
+
+## 🎯 Core Business Problem
+
+Although demand was stable, nearly **38% of bookings were not converting into completed rides**.
+
+This indicated:
+
+- Revenue leakage  
+- Operational inefficiencies  
+- Driver accountability gaps  
+- Customer dissatisfaction  
+
+The business needed a consolidated view of:
+
+- Booking success vs failure  
+- Cancellation drivers  
+- Vehicle-wise performance  
+- Payment reliability  
+- Rating mismatches  
+
+---
+
+## 🛠 Analytical Approach
+
+### 1️⃣ Demand & Volume Analysis
+
+- Daily rides remained stable (~42K–46K per day)
+- No major spikes or drops
+- Slight increase at month-end
+
+**Insight:** Demand is consistent. The issue is not customer demand — it is operational execution.
+
+---
+
+### 2️⃣ Booking Outcome Analysis
+
+Booking distribution:
+
+- 62.06% Completed
+- 17.90% Driver Cancelled
+- 10.20% Customer Cancelled
+- 9.85% Driver Not Found
+
+**Key Finding:**  
+Driver-side issues (cancellations + not found ≈ 28%) dominate ride failures.
+
+Revenue loss is primarily supply-driven, not demand-driven.
+
+---
+
+### 3️⃣ Cancellation Root Cause
+
+**Customer Cancellations:**
+- Main reason: Driver not moving toward pickup (largest volume)
+- Minor reasons: change of plans, AC issues, wrong address
+
+**Driver Cancellations:**
+- Mostly due to personal or vehicle-related issues
+- Very low customer-related cancellation triggers
+
+**Conclusion:**  
+Operational discipline and driver readiness are major improvement areas.
+
+---
+
+### 4️⃣ Vehicle Performance Analysis
+
+- Premium vehicles (Prime categories) complete longer trips
+- Auto and Bike show shorter distances
+- Incomplete rides are mostly short-distance trips
+- Premium segments show slightly better rating alignment
+
+**Insight:** Higher incentives improve completion rates.
+
+---
+
+### 5️⃣ Payment Method Analysis
+
+- Cash generates high booking value but high cancellations
+- UPI shows high value with better completion rates
+- Cards contribute minimal share
+
+**Business Interpretation:**  
+Digital payments are more reliable. Cash rides increase operational risk.
+
+---
+
+### 6️⃣ Rating & Experience Alignment
+
+- Average ratings are around 4.0 across vehicles
+- Rating gaps observed in some categories
+- Negative gap = Customer dissatisfaction
+- Positive gap = Driver dissatisfaction
+
+Service quality is stable, but perception gaps indicate training opportunities.
+
+---
+
+## 📊 Dashboard Solution
+
+Developed an interactive Streamlit dashboard to monitor:
+
+- Booking success rate  
+- Cancellation breakdown  
+- Revenue leakage  
+- Vehicle-wise performance  
+- Payment method contribution  
+- Rating distribution  
+- Rating gap analysis  
+
+Filters include:
+- Date
+- Vehicle type
+- Payment method
+- Booking status  
+
+This enables real-time operational monitoring.
+
+---
+
+## 📈 Key Business Insights
+
+- 38% booking conversion loss is the biggest revenue risk  
+- Driver-related issues cause most failures  
+- “Driver not moving” is the top customer frustration  
+- Cash payments increase cancellation probability  
+- Premium segments perform more efficiently  
+- Demand is stable — operational control is the bottleneck  
+
+---
+
+## 💡 Strategic Recommendations
+
+- Introduce stricter penalties for frequent driver cancellations  
+- Improve real-time driver movement tracking  
+- Encourage UPI and digital payments  
+- Monitor high-risk drivers using performance dashboards  
+- Improve driver readiness checks before ride acceptance  
+- Provide targeted training for low-performing vehicle segments  
+
+---
+
+## 🚀 What This Project Demonstrates
+
+- Operational problem-solving  
+- KPI-driven analysis  
+- Root cause thinking  
+- Revenue impact quantification  
+- Driver behavior analysis  
+- Business-focused dashboard design  
+
+---
+
+## 📎 Live Dashboard
+
+Streamlit App:  
+https://app-pe9wnh65iektprcdgh2bra.streamlit.app/
+
+GitHub Profile:  
+https://github.com/Pheonix1998
+
+
 ## 🛠️ Tools & Skills
 
 **Languages & Tools:**  
