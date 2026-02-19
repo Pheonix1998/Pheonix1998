@@ -121,7 +121,9 @@ This step ensured financial accuracy before performing any analysis.
 
 ---
 
-### 📊 Interactive Streamlit Dashboard
+### 📊 Interactive Streamlit Dashboard - ## 🖥️ Interactive Application-Based Dashboards
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://python-app-8jiapof4fdah2ntbfb4rw7.streamlit.app/)
+
 
 Built a Streamlit dashboard to make insights easy to explore.
 
