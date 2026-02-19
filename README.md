@@ -133,10 +133,6 @@ This allows users to filter by year, country, and genre to explore the data.
 - Launch bundle offers for frequently bought-together tracks  
 - Target repeat customers with personalized promotions  
 - Focus marketing on high-revenue genres  
-
----
-
-### 📂 Project Structure
 ---
 
 ## 🖥️ Interactive Application-Based Dashboards
