@@ -20,8 +20,8 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 ---
 
-## 📂 Featured Portfolio Projects -<a href="https://github.com/Pheonix1998/PROJECTS"><img src="https://img.shields.io/badge/My_Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
-### 1.  🎵 Music Sales Analysis – Revenue & Customer Insights - -<a href="https://github.com/Pheonix1998/PROJECTS/tree/main/MUSIC_PROJECT"><img src="https://img.shields.io/badge/My_Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+## 📂 Featured Portfolio Projects -<a href="https://github.com/Pheonix1998/PROJECTS"><img src="https://img.shields.io/badge/All_Projects_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+### 1.  🎵 Music Sales Analysis – Revenue & Customer Insights - <a href="https://github.com/Pheonix1998/PROJECTS/tree/main/MUSIC_PROJECT"><img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
 
 **Tools Used:** SQL (SQL Server) | Python | Streamlit Dshboard
 
