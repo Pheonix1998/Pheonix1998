@@ -30,8 +30,6 @@ I am a Business Analyst with hands-on experience across business banking, supply
 This project analyzes a digital music store dataset to understand revenue trends, customer behavior, and product performance.
 The goal was to clean raw sales data, build a reliable reporting table, and create dashboards that help business teams make better decisions.
 
----
-
 ### 🎯 Business Problem
 
 The original data was spread across 11 multiple related tables (customers, invoices, tracks, artists, genres, playlists, etc.).
@@ -49,8 +47,6 @@ The business needed:
 - Clear visibility into top customers and top products  
 - Monthly and yearly revenue trends  
 - Insights into what products are often bought together  
-
----
 
 ### 🧠 What I Did ?
 
