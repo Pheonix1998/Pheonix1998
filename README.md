@@ -25,8 +25,6 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 **Tools Used:** SQL (SQL Server) | Python | Streamlit Dshboard
 
----
-
 ### 📌 Project Overview
 
 This project analyzes a digital music store dataset to understand revenue trends, customer behavior, and product performance.
