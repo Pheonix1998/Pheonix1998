@@ -352,15 +352,6 @@ This enables real-time operational monitoring.
 
 ---
 
-## 📎 Live Dashboard
-
-Streamlit App:  
-https://app-pe9wnh65iektprcdgh2bra.streamlit.app/
-
-GitHub Profile:  
-https://github.com/Pheonix1998
-
-
 ## 🛠️ Tools & Skills
 
 **Languages & Tools:**  
