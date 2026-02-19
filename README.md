@@ -20,114 +20,155 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 ---
 
-## 📂 Featured Portfolio Projects -<a href="https://github.com/Pheonix1998/PROJECTS"><img src="https://img.shields.io/badge/All_Projects_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
-### 1.  🎵 Music Sales Analysis – Revenue & Customer Insights - <a href="https://github.com/Pheonix1998/PROJECTS/tree/main/MUSIC_PROJECT"><img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+## 📂 Featured Portfolio Projects  
+<a href="https://github.com/Pheonix1998/PROJECTS">
+<img src="https://img.shields.io/badge/All_Projects_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
 
-**Tools Used:** SQL (SQL Server) | Python | Streamlit Dshboard
+---
 
-### 📌 Project Overview
+## 1. 🎵 Music Sales Intelligence – Revenue Optimization Project  
+<a href="https://github.com/Pheonix1998/PROJECTS/tree/main/MUSIC_PROJECT">
+<img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
 
-This project analyzes a digital music store dataset to understand revenue trends, customer behavior, and product performance.
-The goal was to clean raw sales data, build a reliable reporting table, and create dashboards that help business teams make better decisions.
+**Tools:** SQL (SQL Server) | Python | Streamlit  
+
+---
+
+### 📌 Why This Project?
+
+This project simulates how a digital music company would build a reliable reporting system from raw transactional data.
+
+Instead of just creating charts, the focus was on:
+- Making revenue numbers accurate  
+- Building a clean reporting table  
+- Extracting insights that support real business decisions  
+
+---
 
 ### 🎯 Business Problem
 
-The original data was spread across 11 multiple related tables (customers, invoices, tracks, artists, genres, playlists, etc.).
+The data was stored across 11 related tables (customers, invoices, tracks, artists, genres, playlists, etc.).
 
-There were several issues:
-- Revenue was getting counted multiple times due to incorrect joins  
+The main challenges were:
+
+- Revenue was getting duplicated due to incorrect joins  
 - Date formats were inconsistent  
 - Some customer data had corrupted characters  
 - Price columns were not properly formatted  
 
-Because of this, reports were unreliable.
+Because of this, revenue reports were unreliable and could not be trusted for decision-making.
 
 The business needed:
-- A single accurate source for revenue reporting  
-- Clear visibility into top customers and top products  
-- Monthly and yearly revenue trends  
+- A single accurate revenue source  
+- Clear visibility into top customers and products  
+- Reliable monthly and yearly trends  
 - Insights into what products are often bought together  
 
-### 🧠 What I Did ?
+---
 
-#### 1️⃣ Data Cleaning
-- Fixed corrupted characters in customer fields  
+### 🛠 My Approach
+
+#### 1️⃣ Cleaned and Validated the Data
+- Fixed corrupted characters  
 - Standardized date formats  
-- Safely converted price columns to numeric values  
-- Replaced incorrect or missing values  
+- Converted price columns safely to numeric values  
+- Handled missing values properly  
 
-#### 2️⃣ Built a Clean Reporting Table
-- Created a new table (`MUSIC_FACT`) with one row per invoice line  
-- Removed duplicate revenue caused by many-to-many joins  
-- Verified revenue accuracy using:
+This ensured the data was ready for accurate analysis.
 
-  `Invoice Total = Unit Price × Quantity`
+---
 
-This ensured that all revenue calculations were correct.
+#### 2️⃣ Built a Reliable Reporting Table
 
-#### 3️⃣ Performed Business Analysis
+Created a new table (`MUSIC_FACT`) with:
+- One row per invoice line  
+- No duplicate revenue  
+- Proper date and numeric formats  
 
-**Customer Analysis**
-- Top 10 customers by spending  
+Revenue validation check used:
+
+`Invoice Total = Unit Price × Quantity`
+
+This step ensured financial accuracy before performing any analysis.
+
+---
+
+#### 3️⃣ Performed Business-Focused Analysis
+
+**Customer Insights**
+- Top 10 customers by total spend  
 - Customer Lifetime Value (CLV)  
 - Repeat vs one-time buyers  
-- Average time between purchases  
+- Purchase frequency analysis  
 
-**Sales & Revenue Analysis**
+**Revenue Insights**
 - Monthly and yearly revenue trends  
 - Peak sales periods  
 - Average invoice value  
 - Revenue by country and city  
 
-**Product Analysis**
-- Top tracks and artists by revenue  
+**Product Insights**
+- Top tracks and artists  
 - Revenue by genre  
-- Media format performance  
-- Tracks that were never purchased  
+- Media type performance  
+- Tracks never purchased  
 
-**Basket Analysis**
-- Tracks frequently purchased together  
-- Cross-selling opportunities  
+**Cross-Sell Insights**
+- Frequently purchased track combinations  
+- Bundle opportunities  
 
 ---
 
-### 📊 Streamlit Dashboard
+### 📊 Interactive Streamlit Dashboard
 
-I built an interactive dashboard using Streamlit to present the insights in a simple and visual way.
+Built a Streamlit dashboard to make insights easy to explore.
 
-**Dashboard Features:**
+**Dashboard Highlights:**
 - Total Revenue  
 - Total Invoices  
 - Average Invoice Value  
 - Total Customers  
 - Revenue trends over time  
 - Top artists, genres, and tracks  
+- Geographic revenue view  
 - Customer segmentation  
-- Revenue by geography  
-- Product combinations  
+- Product bundle insights  
 
-This allows users to filter by year, country, and genre to explore the data.
+Users can filter by year, country, and genre.
 
 ---
 
-### 📈 Key Results
+### 📈 Key Outcomes
 
 - Built a clean and accurate reporting table  
-- Identified top revenue-generating artists and genres  
-- Found peak sales months  
+- Removed revenue duplication errors  
+- Identified major revenue drivers  
 - Measured customer lifetime value  
-- Discovered product bundle opportunities  
-- Improved reporting accuracy by removing duplicate revenue  
+- Detected peak sales periods  
+- Found product bundling opportunities  
 
 ---
 
 ### 💡 Business Recommendations
 
 - Use the clean reporting table for all future dashboards  
-- Launch bundle offers for frequently bought-together tracks  
-- Target repeat customers with personalized promotions  
-- Focus marketing on high-revenue genres  
+- Monitor revenue using validated calculations  
+- Launch bundle promotions for frequently bought-together tracks  
+- Focus marketing efforts on high-value customers  
+- Invest more in high-revenue genres  
+
 ---
+
+### 🚀 What This Project Demonstrates
+
+- Strong SQL and data cleaning skills  
+- Ability to validate financial data  
+- Clear business thinking  
+- End-to-end analytics workflow  
+- Dashboard storytelling for decision-making  
+
 
 ## 🖥️ Interactive Application-Based Dashboards
 [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/?utm_source=streamlit&utm_medium=referral&utm_campaign=main&utm_content=-ss-streamlit-io-topright)
