@@ -27,8 +27,10 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 ---
 
-## 1. 🎵 Music Sales Intelligence – Revenue Optimization Project - <img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+## 1. 🎵 Music Sales Intelligence – Revenue Optimization Project  
 <a href="https://github.com/Pheonix1998/PROJECTS/tree/main/MUSIC_PROJECT">
+<img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
 
 **Tools:** SQL (SQL Server) | Python | Streamlit  
 
@@ -119,8 +121,7 @@ This step ensured financial accuracy before performing any analysis.
 
 ---
 
-### 📊 Interactive Streamlit Dashboard - [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://python-app-8jiapof4fdah2ntbfb4rw7.streamlit.app/)
-
+### 📊 Interactive Streamlit Dashboard
 
 Built a Streamlit dashboard to make insights easy to explore.
 
