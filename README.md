@@ -19,7 +19,6 @@ I am a Business Analyst with hands-on experience across business banking, supply
 - Translate analytical results into **clear, business-focused recommendations**
 
 ---
-
 ## 📂 Featured Portfolio Projects  
 <a href="https://github.com/Pheonix1998/PROJECTS">
 <img src="https://img.shields.io/badge/All_Projects_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
@@ -27,10 +26,10 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 ---
 
-## 1. 🎵 Music Sales Intelligence – Revenue Optimization Project - <img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
-</a>
+## 1. 🎵 Music Sales Intelligence – Revenue Optimization Project  
 <a href="https://github.com/Pheonix1998/PROJECTS/tree/main/MUSIC_PROJECT">
-
+<img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
 
 **Tools:** SQL (SQL Server) | Python | Streamlit  
 
@@ -168,7 +167,6 @@ Users can filter by year, country, and genre.
 - Clear business thinking  
 - End-to-end analytics workflow  
 - Dashboard storytelling for decision-making  
-
 
 ## 🖥️ Interactive Application-Based Dashboards
 [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/?utm_source=streamlit&utm_medium=referral&utm_campaign=main&utm_content=-ss-streamlit-io-topright)
