@@ -83,6 +83,125 @@ I am a Business Analyst with hands-on experience across business banking, supply
 * **(e) Results:** Middle-aged customers (31-53) are the top buyers. North America is the highest revenue region. Short commute distances correlate with higher sales.
 * **(f) Recommendation:** Focus marketing campaigns on middle-aged professionals in North America, highlighting bikes as a solution for short-distance commutes.
 
+
+## 🎵 Music Sales Analysis – Revenue & Customer Insights
+
+**Tools Used:** SQL (SQL Server) | Python | Streamlit | Power BI | Tableau | Pandas | Plotly  
+
+---
+
+### 📌 Project Overview
+
+This project analyzes a digital music store dataset to understand revenue trends, customer behavior, and product performance.
+
+The goal was to clean raw sales data, build a reliable reporting table, and create dashboards that help business teams make better decisions.
+
+---
+
+### 🎯 Business Problem
+
+The original data was spread across multiple related tables (customers, invoices, tracks, artists, genres, playlists, etc.).
+
+There were several issues:
+- Revenue was getting counted multiple times due to incorrect joins  
+- Date formats were inconsistent  
+- Some customer data had corrupted characters  
+- Price columns were not properly formatted  
+
+Because of this, reports were unreliable.
+
+The business needed:
+- A single accurate source for revenue reporting  
+- Clear visibility into top customers and top products  
+- Monthly and yearly revenue trends  
+- Insights into what products are often bought together  
+
+---
+
+### 🧠 What I Did
+
+#### 1️⃣ Data Cleaning
+- Fixed corrupted characters in customer fields  
+- Standardized date formats  
+- Safely converted price columns to numeric values  
+- Replaced incorrect or missing values  
+
+#### 2️⃣ Built a Clean Reporting Table
+- Created a new table (`MUSIC_FACT`) with one row per invoice line  
+- Removed duplicate revenue caused by many-to-many joins  
+- Verified revenue accuracy using:
+
+  `Invoice Total = Unit Price × Quantity`
+
+This ensured that all revenue calculations were correct.
+
+#### 3️⃣ Performed Business Analysis
+
+**Customer Analysis**
+- Top 10 customers by spending  
+- Customer Lifetime Value (CLV)  
+- Repeat vs one-time buyers  
+- Average time between purchases  
+
+**Sales & Revenue Analysis**
+- Monthly and yearly revenue trends  
+- Peak sales periods  
+- Average invoice value  
+- Revenue by country and city  
+
+**Product Analysis**
+- Top tracks and artists by revenue  
+- Revenue by genre  
+- Media format performance  
+- Tracks that were never purchased  
+
+**Basket Analysis**
+- Tracks frequently purchased together  
+- Cross-selling opportunities  
+
+---
+
+### 📊 Streamlit Dashboard
+
+I built an interactive dashboard using Streamlit to present the insights in a simple and visual way.
+
+**Dashboard Features:**
+- Total Revenue  
+- Total Invoices  
+- Average Invoice Value  
+- Total Customers  
+- Revenue trends over time  
+- Top artists, genres, and tracks  
+- Customer segmentation  
+- Revenue by geography  
+- Product combinations  
+
+This allows users to filter by year, country, and genre to explore the data.
+
+---
+
+### 📈 Key Results
+
+- Built a clean and accurate reporting table  
+- Identified top revenue-generating artists and genres  
+- Found peak sales months  
+- Measured customer lifetime value  
+- Discovered product bundle opportunities  
+- Improved reporting accuracy by removing duplicate revenue  
+
+---
+
+### 💡 Business Recommendations
+
+- Use the clean reporting table for all future dashboards  
+- Add automatic checks to ensure revenue numbers remain accurate  
+- Launch bundle offers for frequently bought-together tracks  
+- Target repeat customers with personalized promotions  
+- Focus marketing on high-revenue genres  
+
+---
+
+### 📂 Project Structure
 ---
 
 ## 🖥️ Interactive Application-Based Dashboards
