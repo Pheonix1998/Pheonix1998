@@ -379,7 +379,9 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 ## 3. 🏃‍♂️ STRAVA Customer Analysis – Health & Engagement Optimization Project
 
-[![PROJECT REPOSITORY](images/project_repository.png)](https://github.com/Pheonix1998/PROJECTS/tree/main/STRAVA%20PROJECT%20FILES)
+<a href="https://github.com/Pheonix1998/PROJECTS/tree/main/MUSIC_PROJECT">
+<img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
 
 **Tools:** Python (Pandas) | SQL (SQL Server) | Tableau | ETL Pipeline Design
 
