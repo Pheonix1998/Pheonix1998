@@ -377,8 +377,11 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 
 
-## 3. 🏃‍♂️ STRAVA Customer Analysis – Health & Engagement Optimization Project - 
+## 3. 🏃‍♂️ STRAVA Customer Analysis – Health & Engagement Optimization Project
+
+
 <a href="https://github.com/Pheonix1998/PROJECTS/tree/main/OLA%20Service%20Dashboard">
+
 
 **Tools:** Python (Pandas) | SQL (SQL Server) | Tableau | ETL Pipeline Design  
 
