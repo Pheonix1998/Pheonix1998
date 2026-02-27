@@ -377,61 +377,89 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 
 
-________________________________________
-3. 🏃‍♂️ Fitness Company’s Customer Analysis – Health & Engagement Optimization Project  
+3. 🏃‍♂️ STRAVA Customer Analysis – Health & Engagement Optimization Project  
 <a href="https://github.com/Pheonix1998/PROJECTS/tree/main/STRAVA_PROJECT">
 <img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
-Tools Used: Python (Pandas) | SQL Server (SSMS) | Tableau | ETL Pipeline Design  
-________________________________________
+
+Tools Used: Python (Pandas) | SQL Server (SSMS) | Tableau | ETL Pipeline Design  
+
 📌 Why This Project?
 This project demonstrates the ability to handle complex Data Engineering and ETL (Extract, Transform, Load) pipelines before any visualization occurs.
+
 Instead of starting with a clean dataset, the focus was on:
-•	Architecting a unified data model from messy, multi-grain sources  
-•	Preventing Cartesian explosions and data duplication  
-•	Building a scalable Master Fact Table optimized for BI reporting  
-________________________________________
+
+Architecting a unified data model from messy, multi-grain sources  
+
+Preventing Cartesian explosions and data duplication  
+
+Building a scalable Master Fact Table optimized for BI reporting  
+
 🎯 Business Problem
 The raw customer health and activity data was fragmented across 18 separate CSV files tracking events at completely different timelines (e.g., daily weight logs, hourly steps, and second-by-second heart rates).
+
 The main challenges were:
-•	Directly joining these tables in SQL would cause massive data duplication (Cartesian explosion)  
-•	Null values and missing inputs would break mathematical averages (e.g., a "0" for heart rate ruins physiological trendlines)  
-•	The business lacked a "Source of Truth" to answer basic questions like: When are our users most active? Are they actually exercising or just walking?  
+
+Directly joining these tables in SQL would cause massive data duplication (Cartesian explosion)  
+
+Null values and missing inputs would break mathematical averages (e.g., a "0" for heart rate ruins physiological trendlines)  
+
+The business lacked a "Source of Truth" to answer basic questions like: When are our users most active? Are they actually exercising or just walking?  
+
 The business needed a consolidated view of user engagement, exertion quality, and recovery to drive gamification and marketing strategies.
-________________________________________
+
 🛠 My Approach
 1️⃣ Data Selection & Deduplication
-•	Audited 18 raw datasets and scaled down to the 11 most relevant files.
-•	Excluded pre-aggregated files (to prevent redundancy) and overly noisy minute-level sleep data to focus strictly on high-level executive KPIs.
+Audited 18 raw datasets and scaled down to the 11 most relevant files.
+
+Excluded pre-aggregated files (to prevent redundancy) and overly noisy minute-level sleep data to focus strictly on high-level executive KPIs.
+
 2️⃣ Engineered a Python ETL Pipeline
-•	Granularity Alignment: Aggregated second-level heart rate and minute-level METs into standardized hourly averages.
-•	Collision Prevention: Renamed overlapping columns (e.g., changing Calories to HourlyCalories and DailyCalories) to ensure clear data lineage.
-•	The Master Join: Used Pandas to perform a FULL OUTER JOIN on the hourly timeline, followed by a LEFT JOIN to append daily metrics, ensuring zero timestamps were dropped.
-•	Smart Imputation: Filled missing activity with 0, but dynamically imputed missing heart rates using the user's personal historical average to protect mathematical integrity.
+Granularity Alignment: Aggregated second-level heart rate and minute-level METs into standardized hourly averages.
+
+Collision Prevention: Renamed overlapping columns (e.g., changing Calories to HourlyCalories and DailyCalories) to ensure clear data lineage.
+
+The Master Join: Used Pandas to perform a FULL OUTER JOIN on the hourly timeline, followed by a LEFT JOIN to append daily metrics, ensuring zero timestamps were dropped.
+
+Smart Imputation: Filled missing activity with 0, but dynamically imputed missing heart rates using the user's personal historical average to protect mathematical integrity.
+
 3️⃣ Database Integration (SQL Server)
-•	Bypassed default SSMS import errors by strictly defining the SQL schema.
-•	Mapped IDs to BIGINT, forced timestamps to DATETIME (avoiding the binary timestamp trap), and set activity metrics to FLOAT to handle decimal conversions gracefully.
+Bypassed default SSMS import errors by strictly defining the SQL schema.
+
+Mapped IDs to BIGINT, forced timestamps to DATETIME (avoiding the binary timestamp trap), and set activity metrics to FLOAT to handle decimal conversions gracefully.
+
 4️⃣ Business-Focused SQL Analysis
-•	Extracted top-line KPIs: Total active users, average daily steps, and caloric burn.
-•	Segmented distance by exertion quality (Very Active vs. Lightly Active).
-•	Mapped peak intraday engagement hours.
-________________________________________
+Extracted top-line KPIs: Total active users, average daily steps, and caloric burn.
+
+Segmented distance by exertion quality (Very Active vs. Lightly Active).
+
+Mapped peak intraday engagement hours.
+
 📊 Tableau Executive Dashboard - 
 Engineered a 3-tier interactive Tableau dashboard to translate the Master Fact Table into visual insights.
+
 Dashboard Highlights:
-•	Top Row (Macro KPIs): Total Users, Avg Steps, Avg Calories, Avg Sleep Duration.
-•	Middle Row (Behavioral Cadence): Area chart mapping peak engagement hours and bar charts for step trends by day of the week.
-•	Bottom Row (Exertion Quality): Stacked bar charts separating casual walking from intense cardiovascular distance, plus a "Super User" Leaderboard.
-________________________________________
+
+Top Row (Macro KPIs): Total Users, Avg Steps, Avg Calories, Avg Sleep Duration.
+
+Middle Row (Behavioral Cadence): Area chart mapping peak engagement hours and bar charts for step trends by day of the week.
+
+Bottom Row (Exertion Quality): Stacked bar charts separating casual walking from intense cardiovascular distance, plus a "Super User" Leaderboard.
+
 📈 Key Business Insights
-•	The "Weekend Warrior" Trend: Activity levels peak on weekends but show a noticeable slump mid-week (Wed-Fri).
-•	Peak Engagement Hours: Intraday activity follows a bimodal distribution, with a massive spike between 4:00 PM and 8:00 PM.
-•	Quality Over Quantity: While users accumulate high step counts, the majority of their distance is "Lightly Active," indicating a heavily sedentary user base relying on casual walking rather than intense workouts.
-•	Sleep Correlation: Clear correlation between optimized sleep duration and higher volumes of "Very Active Minutes" the following day.
-________________________________________
+The "Weekend Warrior" Trend: Activity levels peak on weekends but show a noticeable slump mid-week (Wed-Fri).
+
+Peak Engagement Hours: Intraday activity follows a bimodal distribution, with a massive spike between 4:00 PM and 8:00 PM.
+
+Quality Over Quantity: While users accumulate high step counts, the majority of their distance is "Lightly Active," indicating a heavily sedentary user base relying on casual walking rather than intense workouts.
+
+Sleep Correlation: Clear correlation between optimized sleep duration and higher volumes of "Very Active Minutes" the following day.
+
 💡 Strategic Recommendations
-•	Optimize Push Notifications: Automate targeted push notifications exactly 30 minutes before the 4:00 PM activity spike to capitalize on existing user momentum.
-•	Gamify the Mid-Week Slump: Introduce Tuesday/Wednesday micro-challenges or double-point rewards to smooth out the mid-week engagement drop.
-•	Push High-Intensity Nudges: Shift product gamification away from just "10,000 steps" and reward users for hitting "Very Active" cardiovascular minutes to improve actual health outcomes.
-•	Monetize Recovery: Leverage the data proving that better sleep equals better workouts to cross-sell a premium "Sleep & Recovery" subscription tier.
-________________________________________
+Optimize Push Notifications: Automate targeted push notifications exactly 30 minutes before the 4:00 PM activity spike to capitalize on existing user momentum.
+
+Gamify the Mid-Week Slump: Introduce Tuesday/Wednesday micro-challenges or double-point rewards to smooth out the mid-week engagement drop.
+
+Push High-Intensity Nudges: Shift product gamification away from just "10,000 steps" and reward users for hitting "Very Active" cardiovascular minutes to improve actual health outcomes.
+
+Monetize Recovery: Leverage the data proving that better sleep equals better workouts to cross-sell a premium "Sleep & Recovery" subscription tier.
