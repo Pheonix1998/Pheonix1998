@@ -107,6 +107,7 @@ Created a rigid database schema to bypass SSMS import errors caused by messy dat
 <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/STRAVAANALYSIS/Dashboard" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
 </a>
+
 Built a 3-tier interactive Tableau dashboard to translate the Fact Table into visual insights.
 
 **Dashboard Highlights:**
