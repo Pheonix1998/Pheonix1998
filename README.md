@@ -379,7 +379,7 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 ## 3. 🏃‍♂️ STRAVA Customer Analysis – Health & Engagement Optimization Project
 
-<a href="https://github.com/Pheonix1998/PROJECTS/tree/main/MUSIC_PROJECT">
+<a href="https://github.com/Pheonix1998/PROJECTS/tree/main/STRAVA%20PROJECT%20FILES">
 <img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
