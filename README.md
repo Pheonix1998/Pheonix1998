@@ -379,7 +379,9 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 ## 3. 🏃‍♂️ STRAVA Customer Analysis – Health & Engagement Optimization Project
 
-**Tools:** Python (Pandas) | SQL (SQL Server) | Tableau | ETL Pipeline Design  
+**Tools:** Python (Pandas) | SQL (SQL Server) | Tableau | ETL Pipeline Design
+
+Project files: [STRAVA Project Files](https://github.com/Pheonix1998/PROJECTS/tree/main/STRAVA%20PROJECT%20FILES)
 
 ---
 
@@ -467,14 +469,5 @@ Built a 3-tier interactive Tableau dashboard to translate the Fact Table into vi
 - Built a clean, blank-free hourly Master Fact Table from 11 disjointed sources
 - Eliminated data collisions and Cartesian explosions
 - Identified a massive volume spike in user activity between 4:00 PM and 8:00 PM
-- Discovered a mid-week engagement slump (Wednesday-Friday)
+- Discovered a mid-week engagement slump (Wednesday–Friday)
 - Proved that the vast majority of user distance is "Lightly Active" (sedentary/casual walking)
-- Mapped a direct mathematical correlation between optimized sleep duration and high-intensity workouts the next day
-
----
-
-### 💡 Business Recommendations
-- **Optimize Push Notifications:** Automate targeted app nudges exactly 30 minutes before the 4:00 PM spike to capitalize on existing user momentum
-- **Gamify the Mid-Week Slump:** Introduce Tuesday/Wednesday micro-challenges or double-point rewards to smooth out the engagement drop
-- **Push High-Intensity Goals:** Shift gamification away from the standard "10,000 steps" and reward users for hitting "Very Active" cardiovascular minutes
-- **Monetize Recovery:** Leverage the data proof correlating rest and performance to successfully cross-sell a premium "Sleep & Recovery" subscription tier
