@@ -249,8 +249,10 @@ Service quality is stable, but perception gaps indicate training opportunities.
 
 ## 📊 Dashboard Solution - [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://python-app-7a2zufxyiynnnvdy5glrcu.streamlit.app/)
 
+<a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/STRAVAANALYSIS/Dashboard" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
 </a>
+
 Developed an interactive Streamlit dashboard to monitor:
 
 - Booking success rate  
