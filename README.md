@@ -26,137 +26,102 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 ---
 
-## 1. 🎵 Music Sales Intelligence – Revenue Optimization Project  
-<a href="https://github.com/Pheonix1998/PROJECTS/tree/main/MUSIC_PROJECT">
+## 3. 🏃‍♂️ STRAVA Customer Analysis – Health & Engagement Optimization Project
+
+<a href="https://github.com/Pheonix1998/PROJECTS/tree/main/STRAVA%20PROJECT%20FILES">
 <img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
-**Tools:** SQL (SQL Server) | Python | Streamlit  
+**Tools:** Python (Pandas) | SQL (SQL Server) | Tableau | ETL Pipeline Design
 
 ---
 
 ### 📌 Why This Project?
 
-This project simulates how a digital music company would build a reliable reporting system from raw transactional data.
+This project demonstrates the ability to handle complex **Data Engineering and ETL (Extract, Transform, Load)** pipelines before any visualization occurs.
 
-Instead of just creating charts, the focus was on:
-- Making revenue numbers accurate  
-- Building a clean reporting table  
-- Extracting insights that support real business decisions  
+Instead of starting with a clean dataset, the focus was on:
+- Architecting a unified data model from messy, multi-grain sources
+- Preventing Cartesian explosions and data duplication
+- Building a scalable **Master Fact Table** optimized for BI reporting
 
 ---
 
 ### 🎯 Business Problem
 
-The data was stored across 11 related tables (customers, invoices, tracks, artists, genres, playlists, etc.).
+The raw customer health and activity data was fragmented across **18 separate files** tracking events on completely different timelines (e.g., daily weight logs, hourly steps, and second-by-second heart rates).
 
 The main challenges were:
+- Directly joining these tables in SQL would cause massive data duplication
+- Null values and missing inputs threatened to break mathematical averages (e.g., a "0" for heart rate ruins physiological trendlines)
+- The business lacked a single "Source of Truth" to answer core operational questions
 
-- Revenue was getting duplicated due to incorrect joins  
-- Date formats were inconsistent  
-- Some customer data had corrupted characters  
-- Price columns were not properly formatted  
-
-Because of this, revenue reports were unreliable and could not be trusted for decision-making.
+Because of this, it was impossible to track intraday behaviors or correlate health domains (like sleep vs. activity).
 
 The business needed:
-- A single accurate revenue source  
-- Clear visibility into top customers and products  
-- Reliable monthly and yearly trends  
-- Insights into what products are often bought together  
+- A single, blank-free Master Fact Table
+- Clear visibility into peak engagement hours
+- Reliable segmentation of workout intensity (casual walking vs. intense cardio)
+- Insights into how recovery (sleep) impacts physical exertion
 
 ---
 
 ### 🛠 My Approach
 
-#### 1️⃣ Cleaned and Validated the Data
-- Fixed corrupted characters  
-- Standardized date formats  
-- Converted price columns safely to numeric values  
-- Handled missing values properly  
+#### 1️⃣ Data Selection & Deduplication
+- Audited 18 raw datasets and scaled down to the **11 most relevant files**
+- Dropped pre-aggregated files to prevent redundancy
+- Excluded overly noisy minute-level sleep logs to focus strictly on executive-level KPIs
 
-This ensured the data was ready for accurate analysis.
+#### 2️⃣ Engineered a Python ETL Pipeline
+- **Granularity Alignment:** Aggregated second-level heart rate and minute-level METs into standardized hourly averages
+- **Collision Prevention:** Renamed overlapping columns (e.g., `Calories` to `HourlyCalories` and `DailyCalories`)
+- **The Master Join:** Executed a `FULL OUTER JOIN` on the hourly timeline, followed by a `LEFT JOIN` for daily metrics
+- **Smart Imputation:** Handled missing activity with `0`, and imputed missing heart rates using the user's *personal historical average* to protect mathematical integrity
 
----
+#### 3️⃣ Database Integration (SQL Server)
+Created a rigid database schema to bypass SSMS import errors caused by messy data:
+- Mapped IDs to `BIGINT`
+- Forced timestamps to `DATETIME` (avoiding the binary timestamp trap)
+- Set activity metrics to `FLOAT` for seamless decimal conversions
 
-#### 2️⃣ Built a Reliable Reporting Table
+#### 4️⃣ Performed Business-Focused Analysis
+**Engagement Insights**
+- Peak intraday engagement hours
+- Weekly activity trends (Weekend vs. Mid-week)
+- Total active users and daily average steps
 
-Created a new table (`MUSIC_FACT`) with:
-- One row per invoice line  
-- No duplicate revenue  
-- Proper date and numeric formats  
+**Exertion Insights**
+- Distance segmented by intensity (Very Active vs. Lightly Active)
+- Caloric burn correlated with total distance
+- Top 10 "Super Users" by total steps
 
-Revenue validation check used:
-
-`Invoice Total = Unit Price × Quantity`
-
-This step ensured financial accuracy before performing any analysis.
-
----
-
-#### 3️⃣ Performed Business-Focused Analysis
-
-**Customer Insights**
-- Top 10 customers by total spend  
-- Customer Lifetime Value (CLV)  
-- Repeat vs one-time buyers  
-- Purchase frequency analysis  
-
-**Revenue Insights**
-- Monthly and yearly revenue trends  
-- Peak sales periods  
-- Average invoice value  
-- Revenue by country and city  
-
-**Product Insights**
-- Top tracks and artists  
-- Revenue by genre  
-- Media type performance  
-- Tracks never purchased  
-
-**Cross-Sell Insights**
-- Frequently purchased track combinations  
-- Bundle opportunities  
+**Health & Recovery Insights**
+- Average resting and peak heart rates
+- Sleep efficiency (Time in Bed vs. Time Asleep)
+- Impact of sleep duration on next-day activity levels
 
 ---
 
-### 📊 Streamlit Dashboard - [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://python-app-8jiapof4fdah2ntbfb4rw7.streamlit.app/)
-
-Built a Streamlit dashboard to make insights easy to explore.
+### 📊 Tableau Executive Dashboard - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/STRAVAANALYSIS/Dashboard" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
+</a>
+Built a 3-tier interactive Tableau dashboard to translate the Fact Table into visual insights.
 
 **Dashboard Highlights:**
-- Total Revenue  
-- Total Invoices  
-- Average Invoice Value  
-- Total Customers  
-- Revenue trends over time  
-- Top artists, genres, and tracks  
-- Geographic revenue view  
-- Customer segmentation  
-- Product bundle insights  
-
-Users can filter by year, country, and genre.
+- Top Row: Macro KPIs (Total Users, Avg Steps, Avg Calories, Avg Sleep Duration)
+- Middle Row: Behavioral Cadence (Area charts mapping peak hours and weekly step trends)
+- Bottom Row: Exertion Quality (Stacked bar charts separating casual walking from intense cardiovascular distance)
+- Super User Leaderboard
 
 ---
 
 ### 📈 Key Outcomes
-
-- Built a clean and accurate reporting table  
-- Removed revenue duplication errors  
-- Identified major revenue drivers  
-- Measured customer lifetime value  
-- Detected peak sales periods  
-- Found product bundling opportunities  
-
----
-
-### 💡 Business Recommendations
-
-- Use the clean reporting table for all future dashboards  
-- Monitor revenue using validated calculations  
-- Launch bundle promotions for frequently bought-together tracks  
-- Focus marketing efforts on high-value customers  
-- Invest more in high-revenue genres  
+- Built a clean, blank-free hourly Master Fact Table from 11 disjointed sources
+- Eliminated data collisions and Cartesian explosions
+- Identified a massive volume spike in user activity between 4:00 PM and 8:00 PM
+- Discovered a mid-week engagement slump (Wednesday–Friday)
+- Proved that the vast majority of user distance is "Lightly Active" (sedentary/casual walking)
 
 ---
 ---
@@ -373,103 +338,3 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 ![Primary Tools](https://img.shields.io/badge/Primary_Tools-EXCEL%20%7C%20SQL%20%7C%20PYTHON%20%7C%20STREAMLIT%20%7C%20TABLEAU-0B3C5D?style=for-the-badge)
 
 ---
-
-
-
-
-## 3. 🏃‍♂️ STRAVA Customer Analysis – Health & Engagement Optimization Project
-
-<a href="https://github.com/Pheonix1998/PROJECTS/tree/main/STRAVA%20PROJECT%20FILES">
-<img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-**Tools:** Python (Pandas) | SQL (SQL Server) | Tableau | ETL Pipeline Design
-
----
-
-### 📌 Why This Project?
-
-This project demonstrates the ability to handle complex **Data Engineering and ETL (Extract, Transform, Load)** pipelines before any visualization occurs.
-
-Instead of starting with a clean dataset, the focus was on:
-- Architecting a unified data model from messy, multi-grain sources
-- Preventing Cartesian explosions and data duplication
-- Building a scalable **Master Fact Table** optimized for BI reporting
-
----
-
-### 🎯 Business Problem
-
-The raw customer health and activity data was fragmented across **18 separate files** tracking events on completely different timelines (e.g., daily weight logs, hourly steps, and second-by-second heart rates).
-
-The main challenges were:
-- Directly joining these tables in SQL would cause massive data duplication
-- Null values and missing inputs threatened to break mathematical averages (e.g., a "0" for heart rate ruins physiological trendlines)
-- The business lacked a single "Source of Truth" to answer core operational questions
-
-Because of this, it was impossible to track intraday behaviors or correlate health domains (like sleep vs. activity).
-
-The business needed:
-- A single, blank-free Master Fact Table
-- Clear visibility into peak engagement hours
-- Reliable segmentation of workout intensity (casual walking vs. intense cardio)
-- Insights into how recovery (sleep) impacts physical exertion
-
----
-
-### 🛠 My Approach
-
-#### 1️⃣ Data Selection & Deduplication
-- Audited 18 raw datasets and scaled down to the **11 most relevant files**
-- Dropped pre-aggregated files to prevent redundancy
-- Excluded overly noisy minute-level sleep logs to focus strictly on executive-level KPIs
-
-#### 2️⃣ Engineered a Python ETL Pipeline
-- **Granularity Alignment:** Aggregated second-level heart rate and minute-level METs into standardized hourly averages
-- **Collision Prevention:** Renamed overlapping columns (e.g., `Calories` to `HourlyCalories` and `DailyCalories`)
-- **The Master Join:** Executed a `FULL OUTER JOIN` on the hourly timeline, followed by a `LEFT JOIN` for daily metrics
-- **Smart Imputation:** Handled missing activity with `0`, and imputed missing heart rates using the user's *personal historical average* to protect mathematical integrity
-
-#### 3️⃣ Database Integration (SQL Server)
-Created a rigid database schema to bypass SSMS import errors caused by messy data:
-- Mapped IDs to `BIGINT`
-- Forced timestamps to `DATETIME` (avoiding the binary timestamp trap)
-- Set activity metrics to `FLOAT` for seamless decimal conversions
-
-#### 4️⃣ Performed Business-Focused Analysis
-**Engagement Insights**
-- Peak intraday engagement hours
-- Weekly activity trends (Weekend vs. Mid-week)
-- Total active users and daily average steps
-
-**Exertion Insights**
-- Distance segmented by intensity (Very Active vs. Lightly Active)
-- Caloric burn correlated with total distance
-- Top 10 "Super Users" by total steps
-
-**Health & Recovery Insights**
-- Average resting and peak heart rates
-- Sleep efficiency (Time in Bed vs. Time Asleep)
-- Impact of sleep duration on next-day activity levels
-
----
-
-### 📊 Tableau Executive Dashboard - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/STRAVAANALYSIS/Dashboard" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
-</a>
-Built a 3-tier interactive Tableau dashboard to translate the Fact Table into visual insights.
-
-**Dashboard Highlights:**
-- Top Row: Macro KPIs (Total Users, Avg Steps, Avg Calories, Avg Sleep Duration)
-- Middle Row: Behavioral Cadence (Area charts mapping peak hours and weekly step trends)
-- Bottom Row: Exertion Quality (Stacked bar charts separating casual walking from intense cardiovascular distance)
-- Super User Leaderboard
-
----
-
-### 📈 Key Outcomes
-- Built a clean, blank-free hourly Master Fact Table from 11 disjointed sources
-- Eliminated data collisions and Cartesian explosions
-- Identified a massive volume spike in user activity between 4:00 PM and 8:00 PM
-- Discovered a mid-week engagement slump (Wednesday–Friday)
-- Proved that the vast majority of user distance is "Lightly Active" (sedentary/casual walking)
