@@ -379,9 +379,7 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 ## 3. 🏃‍♂️ STRAVA Customer Analysis – Health & Engagement Optimization Project  
 <a href="https://github.com/Pheonix1998/PROJECTS/tree/main/STRAVA%20PROJECT%20FILES">
-<a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/STRAVAANALYSIS/Dashboard" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
-</a>
+
 
 **Tools:** Python (Pandas) | SQL (SQL Server) | Tableau | ETL Pipeline Design  
 
@@ -454,7 +452,10 @@ Created a rigid database schema to bypass SSMS import errors caused by messy dat
 
 ---
 
-### 📊 Tableau Executive Dashboard - [![Tableau](https://img.shields.io/badge/Tableau-View_Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)](#)
+### 📊 Tableau Executive Dashboard - 
+<a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/STRAVAANALYSIS/Dashboard" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
+</a>
 Built a 3-tier interactive Tableau dashboard to translate the Fact Table into visual insights.
 
 **Dashboard Highlights:**
