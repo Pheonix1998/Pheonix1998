@@ -129,7 +129,7 @@ Built a 3-tier interactive Tableau dashboard to translate the Fact Table into vi
 ---
 
 ## 🚖 Ride-Hailing Operations Intelligence – Reducing Booking Failures & Revenue Leakage  
-<a href="https://github.com/Pheonix1998/PROJECTS/tree/main/OLA%20Service%20Dashboard">
+<a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/OLADashboard/Dashboard">
 <img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
