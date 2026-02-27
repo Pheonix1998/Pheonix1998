@@ -381,7 +381,7 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 **Tools:** Python (Pandas) | SQL (SQL Server) | Tableau | ETL Pipeline Design
 
-Project files: [![PROJECT REPOSITORY](images/project_repository.png)](https://github.com/Pheonix1998/PROJECTS/tree/main/STRAVA%20PROJECT%20FILES)
+<a href="https://github.com/Pheonix1998/PROJECTS/tree/main/MUSIC_PROJECT">
 
 ---
 
