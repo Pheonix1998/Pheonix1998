@@ -377,177 +377,85 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 
 
-# 3. 🏃‍♂️ STRAVA Customer Analysis – Health & Engagement Optimization
-
+## 3. 🏃‍♂️ STRAVA Customer Analysis – Health & Engagement Optimization Project  
 <a href="https://github.com/Pheonix1998/PROJECTS/tree/main/STRAVA_PROJECT">
-  <img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
-**Tools Used:** Python (Pandas) | SQL Server (SSMS) | Tableau | ETL Pipeline Architecture  
+**Tools Used:** Python (Pandas) | SQL Server (SSMS) | Tableau | ETL Pipeline Design  
 
 ---
 
-## 📌 Strategic Context
+### 📌 Why This Project?
 
-This project simulates how a digital fitness platform transforms fragmented behavioral health data into a centralized, decision-ready analytics engine.
+This project demonstrates the ability to handle complex **Data Engineering and ETL (Extract, Transform, Load)** pipelines before any visualization occurs. 
 
 Instead of starting with a clean dataset, the focus was on:
-
-- Designing a scalable ETL framework  
-- Resolving multi-granularity data conflicts  
-- Preventing Cartesian joins and duplication  
-- Engineering a Master Fact Table as a trusted Source of Truth  
-- Structuring data for executive-level BI consumption  
+- Architecting a unified data model from messy, multi-grain sources  
+- Preventing Cartesian explosions and data duplication  
+- Building a scalable **Master Fact Table** optimized for BI reporting  
 
 ---
 
-## 🎯 Core Business Problem
+### 🎯 Business Problem
 
-Customer activity data existed across **18 independent CSV sources**, recorded at inconsistent time granularities:
+The raw customer health and activity data was fragmented across **18 separate CSV files** tracking events at completely different timelines (e.g., daily weight logs, hourly steps, and second-by-second heart rates).
 
-- Second-level heart rate logs  
-- Minute-level MET values  
-- Hourly activity intensity  
-- Daily weight and sleep tracking  
-
-### Key Challenges:
-
-1. Direct SQL joins would generate massive data inflation (Cartesian explosion).  
-2. Missing physiological metrics would corrupt averages and trendlines.  
-3. No unified timeline existed to answer critical business questions:
-   - When are users most active?
-   - Is movement high-intensity or casual?
-   - Does recovery influence exertion?
-   - Where is engagement leakage occurring?
-
-The business lacked a consolidated analytical layer to drive product, retention, and monetization strategies.
+The main challenges were:
+- Directly joining these tables in SQL would cause massive data duplication (Cartesian explosion)  
+- Null values and missing inputs would break mathematical averages (e.g., a "0" for heart rate ruins physiological trendlines)  
+- The business lacked a "Source of Truth" to answer basic questions like: *When are our users most active? Are they actually exercising or just walking?* The business needed a consolidated view of user engagement, exertion quality, and recovery to drive gamification and marketing strategies.
 
 ---
 
-## 🛠 Solution Architecture
+### 🛠 My Approach
 
-### 1️⃣ Data Selection & Rationalization
+#### 1️⃣ Data Selection & Deduplication
+- Audited 18 raw datasets and scaled down to the **11 most relevant files**.
+- Excluded pre-aggregated files (to prevent redundancy) and overly noisy minute-level sleep data to focus strictly on high-level executive KPIs.
 
-- Audited 18 datasets and retained 11 high-signal tables  
-- Removed pre-aggregated and redundant files  
-- Excluded noisy minute-level sleep granularity for executive reporting focus  
-- Prioritized behavioral and exertion KPIs  
+#### 2️⃣ Engineered a Python ETL Pipeline
+- **Granularity Alignment:** Aggregated second-level heart rate and minute-level METs into standardized hourly averages.
+- **Collision Prevention:** Renamed overlapping columns (e.g., changing `Calories` to `HourlyCalories` and `DailyCalories`) to ensure clear data lineage.
+- **The Master Join:** Used Pandas to perform a `FULL OUTER JOIN` on the hourly timeline, followed by a `LEFT JOIN` to append daily metrics, ensuring zero timestamps were dropped.
+- **Smart Imputation:** Filled missing activity with `0`, but dynamically imputed missing heart rates using the user's *personal historical average* to protect mathematical integrity.
 
-**Result:** Reduced structural complexity while preserving analytical depth.
+#### 3️⃣ Database Integration (SQL Server)
+- Bypassed default SSMS import errors by strictly defining the SQL schema.
+- Mapped IDs to `BIGINT`, forced timestamps to `DATETIME` (avoiding the binary timestamp trap), and set activity metrics to `FLOAT` to handle decimal conversions gracefully.
 
----
-
-### 2️⃣ Python-Based ETL Pipeline Engineering
-
-#### Granularity Standardization
-- Aggregated second-level heart rate to hourly averages  
-- Aggregated minute-level MET values to hourly exertion summaries  
-- Aligned all data to a standardized hourly time spine  
-
-#### Collision Prevention
-- Renamed ambiguous columns (e.g., `Calories` → `HourlyCalories`, `DailyCalories`)  
-- Enforced strict naming conventions for traceability  
-
-#### Master Join Logic
-- Performed FULL OUTER JOIN on hourly time index  
-- Applied LEFT JOIN for daily-level metrics  
-- Ensured zero timestamp loss  
-
-#### Intelligent Imputation
-- Filled missing activity metrics with 0  
-- Replaced missing heart rate values with user-specific historical averages  
-- Preserved physiological realism and mathematical integrity  
-
-**Outcome:** Built a clean, scalable Master Fact Table suitable for enterprise BI environments.
+#### 4️⃣ Business-Focused SQL Analysis
+- Extracted top-line KPIs: Total active users, average daily steps, and caloric burn.
+- Segmented distance by exertion quality (Very Active vs. Lightly Active).
+- Mapped peak intraday engagement hours.
 
 ---
 
-### 3️⃣ SQL Server Integration
+### 📊 Tableau Executive Dashboard - [![Tableau](https://img.shields.io/badge/Tableau-View_Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)](#)
 
-- Defined schema manually to bypass SSMS import inconsistencies  
-- Mapped:
-  - IDs → BIGINT  
-  - Timestamps → DATETIME  
-  - Activity metrics → FLOAT  
-- Eliminated datatype misclassification issues  
+Engineered a 3-tier interactive Tableau dashboard to translate the Master Fact Table into visual insights.
 
-This ensured database reliability and reporting stability.
+**Dashboard Highlights:**
+- **Top Row (Macro KPIs):** Total Users, Avg Steps, Avg Calories, Avg Sleep Duration.
+- **Middle Row (Behavioral Cadence):** Area chart mapping peak engagement hours and bar charts for step trends by day of the week.
+- **Bottom Row (Exertion Quality):** Stacked bar charts separating casual walking from intense cardiovascular distance, plus a "Super User" Leaderboard.
 
 ---
 
-### 4️⃣ Business-Centric SQL Analytics
+### 📈 Key Business Insights
 
-Extracted strategic KPIs including:
-
-- Total Active Users  
-- Average Daily Steps  
-- Average Calories Burned  
-- Exertion segmentation (Very Active vs Lightly Active)  
-- Peak hourly engagement windows  
-- Distance distribution by intensity  
+- **The "Weekend Warrior" Trend:** Activity levels peak on weekends but show a noticeable slump mid-week (Wed-Fri).
+- **Peak Engagement Hours:** Intraday activity follows a bimodal distribution, with a massive spike between **4:00 PM and 8:00 PM**.
+- **Quality Over Quantity:** While users accumulate high step counts, the majority of their distance is "Lightly Active," indicating a heavily sedentary user base relying on casual walking rather than intense workouts.
+- **Sleep Correlation:** Clear correlation between optimized sleep duration and higher volumes of "Very Active Minutes" the following day.
 
 ---
 
-## 📊 Executive Tableau Dashboard
+### 💡 Strategic Recommendations
 
-Developed a 3-layer executive dashboard structured for decision-makers.
-
-### Top Layer – Macro KPIs
-- Total Users  
-- Average Daily Steps  
-- Average Calories Burned  
-- Average Sleep Duration  
-
-### Middle Layer – Behavioral Cadence
-- Intraday activity distribution (hourly engagement)  
-- Step count trends by day of week  
-
-### Bottom Layer – Exertion Quality
-- Stacked bar segmentation of Light vs Very Active distance  
-- Super User leaderboard ranking  
-
-The dashboard translates raw behavioral data into actionable product intelligence.
+- **Optimize Push Notifications:** Automate targeted push notifications exactly 30 minutes before the 4:00 PM activity spike to capitalize on existing user momentum.
+- **Gamify the Mid-Week Slump:** Introduce Tuesday/Wednesday micro-challenges or double-point rewards to smooth out the mid-week engagement drop.
+- **Push High-Intensity Nudges:** Shift product gamification away from just "10,000 steps" and reward users for hitting "Very Active" cardiovascular minutes to improve actual health outcomes.
+- **Monetize Recovery:** Leverage the data proving that better sleep equals better workouts to cross-sell a premium "Sleep & Recovery" subscription tier.
 
 ---
-
-## 📈 Key Business Insights
-
-### 1. Weekend Warrior Pattern
-User engagement peaks on weekends, with noticeable mid-week stagnation (Wednesday–Friday).
-
-### 2. Bimodal Intraday Activity
-Activity spikes between **4 PM and 8 PM**, indicating post-work engagement dominance.
-
-### 3. Sedentary Majority
-Although total step counts appear strong, most distance falls under "Lightly Active," revealing limited cardiovascular intensity across the user base.
-
-### 4. Recovery–Performance Link
-Users with optimized sleep duration show higher volumes of "Very Active Minutes" the following day.
-
----
-
-## 💡 Strategic Recommendations
-
-### 🎯 Precision Push Notification Strategy
-Trigger engagement nudges 30 minutes before the 4 PM activity spike to amplify existing momentum.
-
-### 🎯 Mid-Week Gamification
-Introduce Tuesday/Wednesday micro-challenges to counteract engagement decline.
-
-### 🎯 Intensity-Based Rewards
-Shift incentives from raw step counts to Very Active Minutes to improve actual health outcomes.
-
-### 🎯 Recovery Monetization
-Launch a premium "Sleep & Recovery" tier leveraging the correlation between sleep quality and workout intensity.
-
----
-
-## 🚀 What This Project Demonstrates
-
-- Enterprise-grade ETL architecture design  
-- Multi-granularity data modeling  
-- Fact table engineering for BI optimization  
-- SQL schema governance  
-- Behavioral segmentation analytics  
-- Executive dashboard storytelling  
-- Translating health telemetry into monetization strategy
