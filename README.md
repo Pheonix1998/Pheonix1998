@@ -377,14 +377,12 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
   * Discovered the average user records **~7,765 steps** and burns **~2,339 calories** daily.
   * Identified that engagement volume spikes heavily in the late afternoon and early evening (**16:00 - 20:00**).
 
-<a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/STRAVAANALYSIS/Dashboard" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
-</a>
-
 
 * 💡 **Strategic Recommendations:**
   * Target engagement bursts at peak hours (16:00-20:00) with short, contextual nudges.
   * Schedule social challenges on weekends to maximize baseline participation, retention, and viral spread.
+ 
+
 
 ---
 
