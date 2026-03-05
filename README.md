@@ -388,8 +388,6 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
  
 * Tableau Dashboard - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/STRAVAANALYSIS/Dashboard" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
 </a>
- 
-
 
 ---
 
@@ -418,6 +416,7 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 * 💡 **Strategic Recommendations:**
   * Introduce stricter penalties for frequent driver cancellations and improve real-time movement tracking.
   * Aggressively encourage UPI and digital payments to directly improve overall platform completion rates.
+  * Demand is stable and operational control causes the bottleneck.
 
 
 * Tableau Dashboard - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/OLADashboard/Dashboard" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
@@ -433,15 +432,21 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 **Tools:** Python (Pandas) | SQL | Tableau | Exploratory Data Analysis (EDA)
 
 * 🎯 **Core Metrics Tracked:** Global Sales Volume, Regional Market Share, Average Product Rating, Wishlist Velocity.
-* [cite_start]📌 **The Business Decision:** Marketing and development executives needed to identify top-tier revenue drivers and evaluate platform profitability to strategically guide future resource allocation and localized ad spend[cite: 674, 676].
+
+* 📌 **The Business Decision:** Marketing and development executives needed to identify top-tier revenue drivers and evaluate platform profitability to strategically guide future resource allocation and localized ad spend.
+
 * 🛠 **Technical Execution:**
-  * [cite_start]Processed disjointed product and sales datasets using Python to address missing values, handle data type inconsistencies, and correct structural errors[cite: 685].
-  * [cite_start]Executed `INNER JOIN` logic in SQL to successfully unify game attributes with global sales performance and user engagement metrics[cite: 689, 713].
+  * Processed disjointed product and sales datasets using Python to address missing values, handle data type inconsistencies, and correct structural errors.
+  * Executed `INNER JOIN` logic in SQL to successfully unify game attributes with global sales performance and user engagement metrics.
+
 * 📊 **Stakeholder Delivery & Outcomes:**
-  * [cite_start]Engineered a dynamic Tableau dashboard facilitating exploratory market analysis[cite: 692].
-  * [cite_start]Discovered the **Action ($661.65M)** and **Shooter ($400.68M)** genres are the primary global revenue drivers[cite: 869].
-  * [cite_start]Identified the 'Sweet Spot': Titles rated between **3.5 and 4.0** generate the highest overall sales at **$1,058M**[cite: 872].
+  * Engineered a dynamic Tableau dashboard facilitating exploratory market analysis.
+  * Discovered the **Action ($661.65M)** and **Shooter ($400.68M)** genres are the primary global revenue drivers.
+  * Identified the 'Sweet Spot': Titles rated between **3.5 and 4.0** generate the highest overall sales at **$1,058M**.
+
 * 💡 **Strategic Recommendations:**
-  * [cite_start]Implement a development **'Quality Gate'** to delay titles projected to score below 3.5, avoiding the steep revenue drop-offs observed with lower-rated games[cite: 896].
-  * [cite_start]Avoid head-to-head competition with Nintendo's massive **46.30%** market share in the family-friendly niche by strategically pivoting to the Shooter genre[cite: 811, 813].
-  * [cite_start]Utilize pre-launch **'Wishlist Velocity'** as a leading indicator to accurately forecast demand and adjust physical copy production volumes[cite: 899, 900].
+  * Implement a development **'Quality Gate'** to delay titles projected to score below 3.5, avoiding the steep revenue drop-offs observed with lower-rated games.
+  * Avoid head-to-head competition with Nintendo's massive **46.30%** market share in the family-friendly niche by strategically pivoting to the Shooter genre.
+  * Utilize pre-launch **'Wishlist Velocity'** as a leading indicator to accurately forecast demand and adjust physical copy production volumes.
+ 
+  * * Tableau Dashboard - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/GAMESALES_17696307297060/FULLEDA" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/></a>
