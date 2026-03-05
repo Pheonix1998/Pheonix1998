@@ -369,7 +369,7 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 ### 🎯 Business Problem: The product and marketing teams needed to optimize push notification timing but lacked a "Source of Truth" due to fragmented user data across 18 separate files tracking events on completely different timelines.
 
 
-### 🛠 My Approach -
+### 🛠 My Approach:
 
 -Consolidated 11 distinct raw datasets into a highly optimized Master Fact Table at the daily grain.
 -Aggregated highly granular second-by-second heart rate and minute-by-minute METs into standardized hourly averages.
@@ -377,18 +377,18 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 -Handled missing activity with 0 and intelligently imputed missing heart rates using the user's personal historical average to protect mathematical integrity.
 
 
-### 📊 Tableau Executive Dashboard - 
+### 📊 Tableau Executive Dashboard:
 <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/STRAVAANALYSIS/Dashboard" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
 </a>
 
 
-### 📈 Key Outcomes - 
+### 📈 Key Outcomes:
 -Built a 3-tier interactive Tableau dashboard tracking behavioral cadence.
 =Discovered the average user records ~7,765 steps and burns ~2,339 calories daily.
 -Identified that engagement volume spikes heavily in the late afternoon and early evening (16:00 - 20:00).
 
-### 💡 Strategic Recommendations - 
+### 💡 Strategic Recommendations:
 -Recommended targeting engagement bursts at peak hours (16:00-20:00) with short, contextual nudges.
 -Advised scheduling social challenges on weekends to maximize participation, retention, and viral spread.
 
