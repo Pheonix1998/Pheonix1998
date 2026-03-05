@@ -449,4 +449,4 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
   * Avoid head-to-head competition with Nintendo's massive **46.30%** market share in the family-friendly niche by strategically pivoting to the Shooter genre.
   * Utilize pre-launch **'Wishlist Velocity'** as a leading indicator to accurately forecast demand and adjust physical copy production volumes.
  
-  * * Tableau Dashboard - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/GAMESALES_17696307297060/FULLEDA" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/></a>
+  * Tableau Dashboard - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/GAMESALES_17696307297060/FULLEDA" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/></a>
