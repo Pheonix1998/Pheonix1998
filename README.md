@@ -347,7 +347,42 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 ---
 
 
-## 1. 🏃‍♂️ Health & Product Analytics: User Engagement Optimization (Strava)
+Here is your highly optimized GitHub README. It retains all your custom HTML badges and repository links while fundamentally restructuring the content into punchy, highly scannable bullet points.
+
+It aligns perfectly with the **"Metrics-First"** and **"AI-Proof"** strategies from the videos, and incorporates the deep technical execution and strategic business recommendations directly from your PDF reports.
+
+---
+
+## 👋 Hi, I'm Tathagata Chakraborty
+
+I am a **Business Intelligence & Operations Analyst** bridging the gap between raw data and executive decision-making. Operating with a "Data Product Manager" mindset, I focus on converting fragmented, real-world data into actionable insights that support **business decisions, operational efficiency, and measurable outcomes**.
+
+### 🚀 About Me
+
+* 🎓 **Education:** PGDM in Supply Chain & Analytics | M.Tech in Power Systems
+* 🏦 **Background:** Former ICICI Bank professional (Asset & Liability Intern & SME Business Banking)
+* 📊 **Technical Stack:** Advanced proficiency in SQL, Python, Excel, Power BI, Tableau, and statistical analysis
+* 🔍 **Focus Areas:** ETL pipelines, KPI tracking, and decision support systems
+
+### 💡 My Analytical Philosophy: The Metrics-First Approach
+
+Before writing a single line of SQL or Python, I ensure I am crystal clear on:
+
+* **The Decision:** Pinpointing the exact business choice the stakeholder is stuck on.
+* **The Northstar KPIs:** Identifying the specific metrics that influence that decision, filtering out the noise.
+* **The Trade-offs:** Balancing deep-dive technical analysis with speed-to-insight to meet real-world deadlines.
+
+---
+
+## 📂 Featured Portfolio Projects (Organized by Business Domain)
+
+<a href="[https://github.com/Pheonix1998/PROJECTS](https://github.com/Pheonix1998/PROJECTS)">
+<img src="[https://img.shields.io/badge/All_Projects_Repository-181717?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/All_Projects_Repository-181717?style=for-the-badge&logo=github&logoColor=white)">
+</a>
+
+---
+
+### 1. 🏃‍♂️ Health & Product Analytics: User Engagement Optimization (Strava)
 
 <a href="[https://github.com/Pheonix1998/PROJECTS/tree/main/STRAVA%20PROJECT%20FILES](https://github.com/Pheonix1998/PROJECTS/tree/main/STRAVA%20PROJECT%20FILES)">
 <img src="[https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white)">
@@ -355,38 +390,31 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 **Tools:** Python (Pandas) | SQL (SQL Server) | Tableau | ETL Pipeline Design
 
-### 🎯 Core Metrics Tracked
+* 🎯 **Core Metrics Tracked:** Peak Engagement Hours, Average Daily Caloric Burn, Step Volume, Sleep Efficiency.
+* 📌 **The Business Decision:** The product and marketing teams needed to optimize push notification timing but lacked a "Source of Truth" due to fragmented user data across 18 separate files tracking events on completely different timelines.
+* 🛠 **Technical Execution & ETL:**
+*
+* Consolidated 11 distinct raw datasets into a highly optimized Master Fact Table at the daily grain.
+* Aggregated highly granular second-by-second heart rate and minute-by-minute METs into standardized hourly averages.
+* Executed a `FULL OUTER JOIN` on the hourly timeline to prevent data loss, followed by a `LEFT JOIN` for daily metrics.
+* Handled missing activity with `0` and imputed missing heart rates using the user's personal historical average.
 
-TotalSteps, TotalDistance, Calories, and TotalMinutes Asleep.
 
-### 📌 The Business Decision
-
-The product and marketing teams needed to optimize push notification timing but lacked a single "Source of Truth" because data was fragmented across highly granular intraday datasets.
-
-### 🛠 Technical Execution & ETL
-
-* **Granularity Alignment:** Consolidated 11 distinct raw datasets into a highly optimized Master Fact Table.
-* **The Master Join:** Aggregated second-level heart rate and minute-level METs into standardized hourly averages. Executed a `FULL OUTER JOIN` on the hourly timeline, followed by a `LEFT JOIN` to attach daily metrics.
-* **Smart Imputation:** Filled missing steps and calories with 0, and imputed missing heart rates using the user's historical average.
-
-### 📊 Stakeholder Delivery & Outcomes
-
-<a href="[https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/STRAVAANALYSIS/Dashboard](https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/STRAVAANALYSIS/Dashboard)" target="_blank">
-  <img src="[https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png](https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png)" alt="My Tableau Profile" width="150"/>
-</a>
-
+* 📊 **Stakeholder Delivery & Outcomes:**
 * Built a 3-tier interactive Tableau dashboard tracking behavioral cadence.
-* Discovered that the average user records ~7,765 steps/day and burns ~2,339 calories/day.
-* Identified that engagement rises late morning and peaks in the late afternoon / early evening (approx. 16:00-20:00).
+* Discovered the average user records ~7,765 steps and burns ~2,339 calories daily.
+* Identified that engagement volume spikes heavily in the late afternoon and early evening (16:00 - 20:00).
 
-### 💡 Strategic Recommendations
 
-* Target engagement bursts at peak hours (16:00-20:00) with short, contextual nudges (walk breaks, quick workouts) when users are already receptive.
-* Schedule social challenges or community events on weekends to maximize participation and viral spread.
+* 💡 **Strategic Recommendations:**
+* Recommended targeting engagement bursts at peak hours (16:00-20:00) with short, contextual nudges.
+* Advised scheduling social challenges on weekends to maximize participation, retention, and viral spread.
+
+
 
 ---
 
-## 2. 🚖 Supply Chain & Operations: Ride-Hailing Bottleneck Analysis (OLA)  
+### 2. 🚖 Supply Chain & Operations: Ride-Hailing Bottleneck Analysis (OLA)  
 
 <a href="[https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/OLADashboard/Dashboard](https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/OLADashboard/Dashboard)">
 <img src="[https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white)">
@@ -394,37 +422,29 @@ The product and marketing teams needed to optimize push notification timing but 
 
 **Tools Used:** Python | SQL | Streamlit | Data Visualization  
 
-### 🎯 Core Metrics Tracked
+* 🎯 **Core Metrics Tracked:** Booking Conversion Rate, Revenue Leakage, Driver Cancellation Rate, Turnaround Time.
+* 📌 **The Business Decision:** Despite stable demand (~42K–46K rides/day), regional operations required a consolidated view to pinpoint bottlenecks, revenue drivers, and service quality gaps causing poor completion rates.
+* 🛠 **Technical Execution:**
+* Evaluated end-to-end operations at the individual booking level using Python and SQL to identify cancellation drivers.
+* Segmented payment methods to correlate transaction types with operational reliability.
+* Visualized outputs in an interactive Streamlit application to enable real-time operational monitoring.
 
-Booking conversion, Turnaround time, and Revenue-related variables.
 
-### 📌 The Business Decision
+* 📊 **Stakeholder Delivery & Outcomes:**
+* Identified massive revenue leakage: nearly 38% of bookings do not convert into completed rides.
+* Proved this is overwhelmingly a supply-side issue; most customer cancellations occur because drivers do not move toward the pickup location.
+* Found that Cash payments generate high booking value but incur the highest operational risk, while UPI emerges as the most reliable payment method.
 
-Regional operations required a consolidated analytical view to evaluate booking outcomes to identify cancellation and failure drivers.
 
-### 🛠 Technical Execution
+* 💡 **Strategic Recommendations:**
+* Recommended introducing stricter penalties for frequent driver cancellations and improving real-time movement tracking.
+* Advised aggressively encouraging UPI and digital payments to directly improve overall platform completion rates.
 
-Evaluated end-to-end operations at the individual booking level using Python and SQL. Segmented payment methods to correlate transaction types with operational reliability, visualizing the output in an interactive Streamlit application.
 
-### 📊 Stakeholder Delivery & Outcomes
-
-[](https://python-app-7a2zufxyiynnnvdy5glrcu.streamlit.app/)
-<a href="[https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/OLADashboard/Dashboard](https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/OLADashboard/Dashboard)" target="_blank">
-  <img src="[https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png](https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png)" alt="My Tableau Profile" width="150"/>
-</a>
-
-* **Revenue Leakage:** Identified that nearly 38% of bookings do not convert into completed rides, which is a major revenue leakage.
-* **Root Cause:** Proved this is overwhelmingly a supply-side issue; most customers cancel because the driver is not moving toward the pickup location (84,474 cases).
-* **Payment Reliability:** Found that Cash generates the highest total booking value, but it also has the most cancellations, while UPI generates high value with mostly successful bookings.
-
-### 💡 Strategic Recommendations
-
-* Improve driver readiness checks and reduce late driver cancellations.
-* Encouraging digital payments can directly improve completion rates.
 
 ---
 
-## 3. 🎮 Market & Strategy Analytics: Product Profitability & ROI (Global Game Sales)
+### 3. 🎮 Market & Strategy Analytics: Product Profitability & ROI (Global Game Sales)
 
 <a href="[https://github.com/Pheonix1998/PROJECTS](https://github.com/Pheonix1998/PROJECTS)">
 <img src="[https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white)">
@@ -432,31 +452,26 @@ Evaluated end-to-end operations at the individual booking level using Python and
 
 **Tools:** Python (Pandas) | SQL | Tableau | Exploratory Data Analysis (EDA)
 
-### 🎯 Core Metrics Tracked
-
-NA_Sales, EU_Sales, JP_Sales, Global_Sales, Rating, and Wishlist.
-
-### 📌 The Business Decision
-
-Marketing and development executives needed to identify top-performing games, most successful genres, and leading publishers by total Global Sales to establish clear market leaders for strategic focus.
-
-### 🛠 Technical Execution
-
+* 🎯 **Core Metrics Tracked:** Global Sales Volume, Regional Market Share, Average Product Rating, Wishlist Velocity.
+* 📌 **The Business Decision:** Marketing and development executives needed to identify top-tier revenue drivers and evaluate platform profitability to guide resource allocation and localized ad spend.
+* 🛠 **Technical Execution:**
 * Processed disjointed product and sales datasets using Python to address missing values and correct structural errors.
-* Executed an `INNER JOIN` in SQL to connect game attributes with sales performance, specifically ensuring `WHERE V.Year IS NOT NULL AND G.Rating IS NOT NULL`.
+* Executed `INNER JOIN` logic in SQL to unify game attributes with global sales performance and user engagement metrics.
 
-### 📊 Stakeholder Delivery & Outcomes
 
-Engineered a dynamic Tableau dashboard facilitating exploratory market analysis.
+* 📊 **Stakeholder Delivery & Outcomes:**
+* Engineered a dynamic Tableau dashboard facilitating exploratory market analysis.
+* Discovered the Action ($661.65M) and Shooter ($400.68M) genres are the primary global revenue drivers.
 
-* **Market Drivers:** Discovered the Action ($661.65M) and Shooter ($400.68M) genres are the primary revenue drivers.
-* **The "Sweet Spot":** Titles rated between 3.5 and 4.0 generate the highest sales ($1,058M).
 
-### 💡 Strategic Recommendations
 
-* **Quality Gate:** Projects projected to score below 3.5 should be delayed for refinement to avoid the steep revenue drop-off observed with lower-rated games.
-* **Market Positioning:** Competitors should avoid head-to-head competition in their "family-friendly" niche given Nintendo's massive 46.30% market share.
-* **Inventory Optimization:** Management should use pre-launch Wishlist numbers as a leading indicator to forecast demand and adjust physical copy production volumes.
+* Identified the 'Sweet Spot': Titles rated between 3.5 and 4.0 generate the highest overall sales at $1,058M.
+* 💡 **Strategic Recommendations:**
+* Recommended implementing a development 'Quality Gate' to delay titles projected to score below 3.5, avoiding steep revenue drop-offs.
+* Advised avoiding head-to-head competition with Nintendo's massive 46.30% market share in the family-friendly niche by strategically pivoting to the Shooter genre.
+* Suggested utilizing pre-launch 'Wishlist Velocity' as a leading indicator to forecast demand and adjust physical copy production volumes.
+
+
 
 ---
 
@@ -471,10 +486,21 @@ Engineered a dynamic Tableau dashboard facilitating exploratory market analysis.
 
 ## 🛠️ Tools & Skills
 
-**Languages & Tools:** SQL | Python | R | Excel | Power BI | Tableau | Streamlit
-
-**Analytics Concepts:** ETL Pipelines | Database Architecture | EDA | KPI Analysis | Business Metrics
-
-**Domain Exposure:** Banking | Ride-Hailing Operations | Health & Fitness Tracking | Retail Decision-Making
+* **Languages & Tools:** SQL | Python | R | Excel | Power BI | Tableau | Streamlit
+* **Analytics Concepts:** ETL Pipelines | Database Architecture | EDA | KPI Analysis | Business Metrics
+* **Domain Exposure:** Banking | Ride-Hailing Operations | Health & Fitness Tracking | Retail Decision-Making
 
 ---
+
+## 🤝 Let's Connect
+
+<a href="[https://www.linkedin.com/in/tathagata-chakraborty-26b03a271/](https://www.linkedin.com/in/tathagata-chakraborty-26b03a271/)" target="_blank">
+<img src="[https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)">
+</a>
+<a href="mailto:tathagata4059@gmail.com">
+<img src="[https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white](https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)">
+</a>
+
+---
+
+## 📊 GitHub Stats
