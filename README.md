@@ -372,13 +372,14 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
   * Executed a `FULL OUTER JOIN` on the hourly timeline to prevent data loss, followed by a `LEFT JOIN` for daily metrics.
   * Handled missing activity with `0` and intelligently imputed missing heart rates using the user's personal historical average to protect mathematical integrity.
 
-* 📊 **Stakeholder Delivery & Outcomes:** ### 📊 Tableau Executive Dashboard - 
-<a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/STRAVAANALYSIS/Dashboard" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
-</a>
+* 📊 **Stakeholder Delivery & Outcomes:** 
   * Built a 3-tier interactive Tableau dashboard tracking behavioral cadence.
   * Discovered the average user records **~7,765 steps** and burns **~2,339 calories** daily.
   * Identified that engagement volume spikes heavily in the late afternoon and early evening (**16:00 - 20:00**).
+
+<a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/STRAVAANALYSIS/Dashboard" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
+</a>
 
 * 💡 **Strategic Recommendations:**
   * Target engagement bursts at peak hours (16:00-20:00) with short, contextual nudges.
