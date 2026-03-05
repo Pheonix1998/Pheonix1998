@@ -354,7 +354,7 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 ---
 
-### 1. 🏃‍♂️ Health & Product Analytics: User Engagement Optimization (Strava)
+### 1. 🏃‍♂️ Health & Product Analytics: User Engagement Optimization
 
 <a href="https://github.com/Pheonix1998/PROJECTS/tree/main/STRAVA%20PROJECT%20FILES">
 <img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
@@ -376,11 +376,14 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
   * Built a 3-tier interactive Tableau dashboard tracking behavioral cadence.
   * Discovered the average user records **~7,765 steps** and burns **~2,339 calories** daily.
   * Identified that engagement volume spikes heavily in the late afternoon and early evening (**16:00 - 20:00**).
+  * Discovered a mid-week engagement slump (Wednesday–Friday)
+  * The vast majority of user distance is "Lightly Active" (sedentary/casual walking)
 
 
 * 💡 **Strategic Recommendations:**
   * Target engagement bursts at peak hours (16:00-20:00) with short, contextual nudges.
   * Schedule social challenges on weekends to maximize baseline participation, retention, and viral spread.
+  * Create features or premium offerings targeted for the premium customers (e.g., leaderboards, advanced metrics). 
 
  
 * Tableau Dashboard - 
