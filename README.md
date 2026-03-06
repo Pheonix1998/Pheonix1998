@@ -12,11 +12,11 @@ I am a Business Analyst with hands-on experience across business banking, supply
 ---
 
 ## 🧠 What I Deliver as a Business Analyst ?
-- Clean, validate, and analyze data using **EDA techniques**
-- Build **MIS reports and executive dashboards** for KPI tracking
-- Write **SQL queries** for extraction, joins, aggregations, and insights
-- Perform **forecasting and trend analysis** using Python and R
-- Translate analytical results into **clear, business-focused recommendations**
+- Transform messy, fragmented datasets into reliable Single Sources of Truth for reporting**
+- Design and develop interactive executive dashboards to track **KPIs and business health**
+- Query and synthesize large-scale databases to **uncover hidden revenue drivers and operational bottlenecks**
+- Perform predictive forecasting and trend analysis to guide proactive business strategies.
+- Translate analytical results into **clear, business-focused recommendations for stakeholders**
 
 ---
 ## 📂 Featured Portfolio Projects  
@@ -32,20 +32,20 @@ I am a Business Analyst with hands-on experience across business banking, supply
 <img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
-**Tools:** Python (Pandas) | SQL (SQL Server) | Tableau | ETL Pipeline Design
+**Tools:** Python | SQL (SQL Server) | Tableau | ETL Pipeline Design
 
 * 🎯 **Core Metrics Tracked:** Peak Engagement Hours, Average Daily Caloric Burn, Step Volume, Sleep Efficiency.
 
 * 📌 **The Business Decision:** The product and marketing teams needed to optimize push notification timing but lacked a "Source of Truth" due to highly fragmented user data spread across 18 separate files tracking events on different timelines.
 
 * 🛠 **Technical Execution & ETL:**
-  * Consolidated 11 distinct raw datasets into a highly optimized Master Fact Table at the daily grain.
+  * Consolidated 11 distinct raw datasets into a highly optimized Master Fact Table at the daily granular level.
   * Aggregated highly granular second-by-second heart rate and minute-by-minute METs into standardized hourly averages.
   * Executed a `FULL OUTER JOIN` on the hourly timeline to prevent data loss, followed by a `LEFT JOIN` for daily metrics.
   * Handled missing activity with `0` and intelligently imputed missing heart rates using the user's personal historical average to protect mathematical integrity.
 
 * 📊 **Stakeholder Delivery & Outcomes:** 
-  * Built a 3-tier interactive Tableau dashboard tracking behavioral cadence.
+  * Built a 3-tier interactive Tableau dashboard tracking behavioral patterns.
   * Discovered the average user records **~7,765 steps** and burns **~2,339 calories** daily.
   * Identified that engagement volume spikes heavily in the late afternoon and early evening (**16:00 - 20:00**).
   * Discovered a mid-week engagement slump (Wednesday–Friday)
