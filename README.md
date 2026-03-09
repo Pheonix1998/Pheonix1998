@@ -65,7 +65,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 ### 2. 🚖 Supply Chain & Operations: Ride-Hailing Bottleneck Analysis  
 
-<a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/RIDESERVICECOMPANYDASHBOARD/Dashboard">
+<a href="https://github.com/TATHAGATA23071998/PROJECTS/tree/main/RIDE%20SERVICE%20PROJECT">
 <img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
