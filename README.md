@@ -76,17 +76,17 @@ I am a Business Analyst with hands-on experience across business banking, supply
   * Total Ride Volume (103,024)
   * Driver Cancellation Rate
 
-* **(b) The Business Decision (Problem Framing):** * Regional operations were experiencing a massive 38% ride failure rate. The executive team needed to definitively answer whether this was a demand-side marketing issue or a supply-side operational bottleneck in order to stop the ₹56.5M revenue leakage.
+* **(b) The Business Decision (Problem Framing):**  Regional operations were experiencing a massive 38% ride failure rate. The executive team needed to definitively answer whether this was a demand-side marketing issue or a supply-side operational bottleneck in order to stop the ₹56.5M revenue leakage.
 
-* **(c) Technical Execution & Analytical Judgment:** * Engineered a highly optimized Kimball Star Schema in SQL Server to process 100,000+ transaction records, ensuring executive BI dashboards loaded instantly.
+* **(c) Technical Execution & Analytical Judgment:**  Engineered a highly optimized Kimball Star Schema in SQL Server to process 100,000+ transaction records, ensuring executive BI dashboards loaded instantly.
   * Used analytical judgment to protect baseline volume metrics: instead of dropping rows with missing wait times (which would artificially shrink the total ride count), imputed missing values using statistical medians to preserve data integrity.
   * Architected a "Junk Dimension" to handle messy, unstructured cancellation text, drastically reducing the computational load on the central reporting database.
 
-* **(d) Stakeholder Delivery & Outcomes:** * Delivered a top-down, interactive Tableau dashboard that proved the bottleneck was 100% supply-side, ruling out customer demand issues.
+* **(d) Stakeholder Delivery & Outcomes:**  Delivered a top-down, interactive Tableau dashboard that proved the bottleneck was 100% supply-side, ruling out customer demand issues.
   * Uncovered widespread driver "gaming" behavior (accepting rides but refusing to move to force customer cancellations).
   * Correlated payment risk, proving that "Cash" payments generate high volume but carry the highest operational cancellation risk.
 
-* **(e) Strategic Recommendations:** * Implement an algorithmic 3-minute GPS penalty to automatically reassign stationary drivers without penalizing the customer.
+* **(e) Strategic Recommendations:**  Implement an algorithmic 3-minute GPS penalty to automatically reassign stationary drivers without penalizing the customer.
   * Launch aggressive customer discount campaigns for UPI payments to lock in platform revenue and eliminate the physical friction of cash on the street.
 
 **Live Dashboards:**
