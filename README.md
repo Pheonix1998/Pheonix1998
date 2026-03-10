@@ -78,7 +78,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 * **(b) The Business Decision (Problem Framing):**  Regional operations were experiencing a massive 38% ride failure rate. The executive team needed to definitively answer whether this was a demand-side marketing issue or a supply-side operational bottleneck in order to stop the ₹56.5M revenue leakage.
 
-* **(c) Technical Execution & Analytical Judgment:**  Engineered a highly optimized Kimball Star Schema in SQL Server to process 100,000+ transaction records, ensuring executive BI dashboards loaded instantly.
+* **(c) Technical Execution & Analytical Judgment:**  Engineered a highly optimized Star Schema in SQL Server to process 100,000+ transaction records, ensuring executive BI dashboards loaded instantly.
   * Used analytical judgment to protect baseline volume metrics: instead of dropping rows with missing wait times (which would artificially shrink the total ride count), imputed missing values using statistical medians to preserve data integrity.
   * Architected a "Junk Dimension" to handle messy, unstructured cancellation text, drastically reducing the computational load on the central reporting database.
 
