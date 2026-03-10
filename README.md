@@ -63,39 +63,35 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 ---
 
-### 2. 🚖 Customer Service Operations: Ride-Hailing Bottleneck Analysis  
+### 1. 🚖 Ride-Hailing Operations: Bottleneck & Revenue Leakage Analysis  
 
 <a href="https://github.com/TATHAGATA23071998/PROJECTS/tree/main/RIDE%20SERVICE%20PROJECT">
 <img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
-**Tools Used:** SQL (SSMS) | Python (Pandas) | Tableau | Streamlit  
+**Tools Used:** SQL Server (SSMS) | Python (Pandas) | Tableau | Streamlit  
 
-* 🎯 **Core Metrics Tracked:** Supply-Side Revenue Leakage (%), Booking Completion Rate, Vehicle & Customer Turnaround Times (V_TAT/C_TAT), Driver Cancellation Rate.
+* **(a) Core Metrics Tracked:** * Total Booking Value (₹56.5M)
+  * Successful Booking Rate (62.09%)
+  * Total Ride Volume (103,024)
+  * Driver Cancellation Rate
 
-* 📌 **The Business Decision (Problem Framing):** Despite stable platform demand (~42K–46K rides/day), regional operations required a consolidated view to pinpoint exactly why ride completion rates were dropping. The executive team needed to definitively answer whether this was a demand-side marketing issue or a supply-side operational bottleneck, and where the revenue leakage was occurring.
+* **(b) The Business Decision (Problem Framing):** * Regional operations were experiencing a massive 38% ride failure rate. The executive team needed to definitively answer whether this was a demand-side marketing issue or a supply-side operational bottleneck in order to stop the ₹56.5M revenue leakage.
 
-* 🛠 **Technical Execution & Analytical Judgment:**
-  * **Defensive Data Engineering:** Executed strict ETL gatekeeping in SSMS. Explicitly avoided a "drop nulls" approach to prevent skewing Daily Active User (DAU) volume. Instead, used `PERCENTILE_CONT(0.5)` to impute missing wait times with statistical medians, protecting baseline KPIs from extreme operational outliers.
-  * **Dimensional Modeling:** Architected the cleaned 103,024-row dataset into a highly optimized Kimball Star Schema to ensure the final BI dashboards loaded instantly. 
-  
-  * **Surrogate Key Architecture:** Engineered a "Junk Dimension" (`Dim_Ride_Status`) using an integer-based `Status_ID` to aggregate 5 heavy text columns of cancellation logic, drastically reducing the computational load on the central `Fact_Bookings` table.
-  * **Deployment:** Visualized outputs in Tableau and an interactive Streamlit application to enable real-time operational monitoring for branch managers.
+* **(c) Technical Execution & Analytical Judgment:** * Engineered a highly optimized Kimball Star Schema in SQL Server to process 100,000+ transaction records, ensuring executive BI dashboards loaded instantly.
+  * Used analytical judgment to protect baseline volume metrics: instead of dropping rows with missing wait times (which would artificially shrink the total ride count), imputed missing values using statistical medians to preserve data integrity.
+  * Architected a "Junk Dimension" to handle messy, unstructured cancellation text, drastically reducing the computational load on the central reporting database.
 
-* 📊 **Stakeholder Delivery & Outcomes:**
-  * **Identified Massive Revenue Leakage:** Proved that nearly **38%** of bookings do not convert into completed rides, explicitly identifying this as a *supply-side* operational bottleneck rather than a lack of customer demand.
-  * **Uncovered Driver "Gaming" Behavior:** Revealed that the vast majority of customer-initiated cancellations (84,474 cases) are actually forced by drivers who accept the ride but refuse to move toward the pickup location to avoid algorithmic penalties.
-  * **Correlated Payment Risk:** Discovered that **Cash** payments generate high booking value but incur the highest operational cancellation risk, while **UPI** emerges as the most reliable, completed payment method.
+* **(d) Stakeholder Delivery & Outcomes:** * Delivered a top-down, interactive Tableau dashboard that proved the bottleneck was 100% supply-side, ruling out customer demand issues.
+  * Uncovered widespread driver "gaming" behavior (accepting rides but refusing to move to force customer cancellations).
+  * Correlated payment risk, proving that "Cash" payments generate high volume but carry the highest operational cancellation risk.
 
-* 💡 **Strategic Recommendations:**
-  * **Algorithmic GPS Penalties:** Introduce automated, stricter penalties (e.g., immediate reassignment and account flagging) for drivers who accept rides but fail to move toward the pickup location within a 3-minute window.
-  * **Mitigate Cash-Driven Risk:** Aggressively encourage UPI and digital payments via targeted customer discounts to directly improve overall platform completion rates and reduce driver selectivity.
-  * **Focus on Supply Retention:** Acknowledge that demand is stable; redirect organizational focus entirely toward operational control, vehicle maintenance programs, and driver retention to seal the 38% revenue leak.
+* **(e) Strategic Recommendations:** * Implement an algorithmic 3-minute GPS penalty to automatically reassign stationary drivers without penalizing the customer.
+  * Launch aggressive customer discount campaigns for UPI payments to lock in platform revenue and eliminate the physical friction of cash on the street.
 
-
-* **Tableau Dashboard** - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/RIDESERVICEANALYSISDASHBOARD/Dashboard" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/></a>
-
-* **Streamlit Dashboard** - [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://python-app-7a2zufxyiynnnvdy5glrcu.streamlit.app/)
+**Live Dashboards:**
+* <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/RIDESERVICEANALYSISDASHBOARD/Dashboard" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="100"/></a>
+* [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://python-app-7a2zufxyiynnnvdy5glrcu.streamlit.app/)
 
 ---
 ## 🖥️ Interactive Application-Based Dashboards
