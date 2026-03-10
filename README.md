@@ -19,7 +19,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
 - Translate analytical results into **clear, business-focused recommendations for stakeholders**
 
 ---
-## 📂 Featured Portfolio Projects  
+## 📂 Featured Projects  
 <a href="https://github.com/Pheonix1998/PROJECTS">
 <img src="https://img.shields.io/badge/All_Projects_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
@@ -96,36 +96,6 @@ I am a Business Analyst with hands-on experience across business banking, supply
 * **Tableau Dashboard** - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/RIDESERVICEANALYSISDASHBOARD/Dashboard" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/></a>
 
 * **Streamlit Dashboard** - [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://python-app-7a2zufxyiynnnvdy5glrcu.streamlit.app/)
-
----
-
-### 3. 🎮 Market & Strategy Analytics: Product Profitability & ROI (Global Game Sales)
-
-<a href="https://github.com/Pheonix1998/PROJECTS">
-<img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-**Tools:** Python (Pandas) | SQL | Tableau | Exploratory Data Analysis (EDA)
-
-* 🎯 **Core Metrics Tracked:** Global Sales Volume, Regional Market Share, Average Product Rating, Wishlist Velocity.
-
-* 📌 **The Business Decision:** Marketing and development executives needed to identify top-tier revenue drivers and evaluate platform profitability to strategically guide future resource allocation and localized ad spend.
-
-* 🛠 **Technical Execution:**
-  * Processed disjointed product and sales datasets using Python to address missing values, handle data type inconsistencies, and correct structural errors.
-  * Executed `INNER JOIN` logic in SQL to successfully unify game attributes with global sales performance and user engagement metrics.
-
-* 📊 **Stakeholder Delivery & Outcomes:**
-  * Engineered a dynamic Tableau dashboard facilitating exploratory market analysis.
-  * Discovered the **Action ($661.65M)** and **Shooter ($400.68M)** genres are the primary global revenue drivers.
-  * Identified the 'Sweet Spot': Titles rated between **3.5 and 4.0** generate the highest overall sales at **$1,058M**.
-
-* 💡 **Strategic Recommendations:**
-  * Implement a development **'Quality Gate'** to delay titles projected to score below 3.5, avoiding the steep revenue drop-offs observed with lower-rated games.
-  * Avoid head-to-head competition with Nintendo's massive **46.30%** market share in the family-friendly niche by strategically pivoting to the Shooter genre.
-  * Utilize pre-launch **'Wishlist Velocity'** as a leading indicator to accurately forecast demand and adjust physical copy production volumes.
- 
-* Tableau Dashboard - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/GAMESALES_17696307297060/FULLEDA" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/></a>
 
 ---
 ## 🖥️ Interactive Application-Based Dashboards
