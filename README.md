@@ -74,7 +74,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
 * **(a) Core Metrics Tracked:** * Total Booking Value (₹56.5M)
   * Successful Booking Rate (62.09%)
   * Total Ride Volume (103,024)
-  * Driver Cancellation Rate
+  * Total Booking Value (Rs 56.53 Million)
 
 * **(b) The Business Decision (Problem Framing):**  Regional operations were experiencing a massive 38% ride failure rate. The executive team needed to definitively answer whether this was a demand-side marketing issue or a supply-side operational bottleneck in order to stop the ₹56.5M revenue leakage.
 
