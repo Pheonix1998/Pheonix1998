@@ -41,7 +41,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
   * Daily Active Users (DAU) retention
 
 * **(b) The Business Decision (Problem Framing):**
- * The product and marketing teams needed to optimize push notification timing to increase user retention. However, they lacked a clear "Source of Truth" because      user event data was highly fragmented across 18 separate tracking files operating on different timelines.
+* The product and marketing teams needed to optimize push notification timing to increase user retention. However, they lacked a clear "Source of Truth" because      user event data was highly fragmented across 18 separate tracking files operating on different timelines.
 
 * **(c) Technical Execution & Analytical Judgment:**
   * Designed a robust Python ETL pipeline to consolidate 11 distinct raw datasets into a single, daily-granular Master Fact Table.
