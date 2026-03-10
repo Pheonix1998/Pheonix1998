@@ -34,21 +34,26 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 **Tools:** Python | SQL (SQL Server) | Tableau | ETL Pipeline Design
 
-* **(a) Core Metrics Tracked:** * Average Daily Steps (~7,765)
+* **(a) Core Metrics Tracked:**
+  * Average Daily Steps (~7,765)
   * Average Daily Caloric Burn (~2,339)
   * Peak Engagement Hours
   * Daily Active Users (DAU) retention
 
-* **(b) The Business Decision (Problem Framing):** The product and marketing teams needed to optimize push notification timing to increase user retention. However, they lacked a clear "Source of Truth" because user event data was highly fragmented across 18 separate tracking files operating on different timelines.
+* **(b) The Business Decision (Problem Framing):**
+ * The product and marketing teams needed to optimize push notification timing to increase user retention. However, they lacked a clear "Source of Truth" because      user event data was highly fragmented across 18 separate tracking files operating on different timelines.
 
-* **(c) Technical Execution & Analytical Judgment:** * Designed a robust Python ETL pipeline to consolidate 11 distinct raw datasets into a single, daily-granular Master Fact Table.
-  * Exercised strong analytical judgment during data cleaning: rather than filling missing heart rate data with generic zeros (which would destroy the mathematical integrity of health metrics), imputed missing data using the user's specific historical averages.
+* **(c) Technical Execution & Analytical Judgment:**
+  * Designed a robust Python ETL pipeline to consolidate 11 distinct raw datasets into a single, daily-granular Master Fact Table.
+  * Exercised strong analytical judgment during data cleaning: rather than filling missing heart rate data with generic zeros (which would destroy the mathematical     integrity of health metrics), imputed missing data using the user's specific historical averages.
 
-* **(d) Stakeholder Delivery & Outcomes:** * Built a 3-tier behavioral dashboard in Tableau tracking granular user activity patterns.
+* **(d) Stakeholder Delivery & Outcomes:**
+  * Built a 3-tier behavioral dashboard in Tableau tracking granular user activity patterns.
   * Identified that platform engagement heavily spikes in a narrow late-afternoon window (16:00 - 20:00).
   * Discovered a severe mid-week user retention slump occurring between Wednesday and Friday.
 
-* **(e) Strategic Recommendations:** * Target the 16:00-20:00 engagement burst with short, contextual push notifications to capture users when they are historically most active.
+* **(e) Strategic Recommendations:**
+  * Target the 16:00-20:00 engagement burst with short, contextual push notifications to capture users when they are historically most active.
   * Schedule community social challenges explicitly on weekends to maximize baseline participation, retention, and organic viral spread.
   * Develop premium leaderboards and advanced metric features specifically targeting the highly active user segment.
  
