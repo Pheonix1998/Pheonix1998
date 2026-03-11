@@ -56,8 +56,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
   * Schedule community social challenges explicitly on weekends to maximize baseline participation, retention, and organic viral spread.
   * Develop premium leaderboards and advanced metric features specifically targeting the highly active user segment.
  
-* Tableau Dashboard - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/HEATH-TECHANALYSIS/Dashboard"_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
-</a>
+* Tableau Dashboard - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/HEATH-TECHANALYSIS/Dashboard"_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/></a>
 
 ---
 
