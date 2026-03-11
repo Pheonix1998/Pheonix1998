@@ -90,7 +90,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
  **(e) Strategic Recommendations:**
   * Implement an algorithmic 3-minute GPS penalty system to automatically reassign stationary drivers without penalizing the customer.
   * Launch aggressive customer discount campaigns for UPI payments to lock in platform revenue and eliminate the physical friction of cash on the street.
-  * Partner with insurance companies to look after the vehicles for reducing the customer cancellation rates, 
+  * Partner with insurance companies to look after the vehicles for reducing the customer cancellation rates.
 
 **Live Dashboards:**
 * <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/RIDESERVICEANALYSISDASHBOARD/Dashboard" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="100"/></a>
