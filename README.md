@@ -137,3 +137,129 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 ![Primary Tools](https://img.shields.io/badge/Primary_Tools-EXCEL%20%7C%20SQL%20%7C%20PYTHON%20%7C%20STREAMLIT%20%7C%20TABLEAU-0B3C5D?style=for-the-badge)
 
 ---
+## 👋 Hi, I'm Tathagata Chakraborty
+I am a goal-oriented Business Analyst with hands-on experience across business banking, supply chain, and analytics. I specialize in extracting useful insights from data to improve business performance, converting raw datasets into actionable storytelling that supports **business decisions, operational efficiency, and measurable outcomes**.
+
+---
+
+## 🚀 About Me
+- 🎓 PGDM in **Supply Chain & Analytics**
+- 🏦 Former **ICICI Bank** professional (MSME & Retail Banking)
+- 📊 Strong working knowledge of **SQL, Python, Excel, Power BI, Tableau**, and statistical analysis
+- 🔍 Passionate about **data-driven strategy, process optimization, and building decision support systems**
+
+---
+
+## 🧠 My Value as a Data Professional
+- **Transform** messy, fragmented datasets into reliable Single Sources of Truth for executive reporting.
+- **Design** interactive executive dashboards to track KPIs and business health.
+- **Query** large-scale databases to uncover hidden revenue drivers and operational bottlenecks.
+- **Perform** predictive forecasting and trend analysis using Python and R to guide proactive business strategies.
+- **Translate** analytical results into clear, business-focused recommendations for non-technical stakeholders.
+
+---
+## 📂 Featured Data Products  
+<a href="https://github.com/Pheonix1998/PROJECTS">
+<img src="https://img.shields.io/badge/All_Projects_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+---
+
+### 1. 🏃‍♂️ Health & Product Analytics: User Engagement Optimization
+
+<a href="https://github.com/Pheonix1998/PROJECTS/tree/main/STRAVA%20PROJECT%20FILES">
+<img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+**Tools Used:** Python (Pandas) | SQL | Tableau | ETL Pipeline Design
+
+* **(a) Core Metrics Tracked:** Avg. Daily Steps (~7.7k) | Active Minutes (231) | Avg. Sleep (5.8 hrs) | DAU Retention
+
+* **(b) Problem Framing:** The app suffered from severe mid-week loss of activity and reduced user engagement, leading to customer churn. The objective was to pivot from a passive "tracker" to an active "health partner" to increase Customer Lifetime Value (CLTV).
+
+* **(c) Technical Execution (ETL):** * Built an automated Python ETL pipeline to consolidate 11 fragmented raw datasets into a daily Master Fact Table. 
+  * Applied **analytical judgment** using statistical imputation for missing biometrics to protect the mathematical integrity of the health data instead of generic zero-fills.
+
+* **(d) Executive Insights:**
+  * **Biological Churn:** Correlated mid-week app churn directly to user "Sleep Debt" (users averaged a dangerously low 5.8 hours of sleep).
+  * **Domain Context (May 12th Anomaly):** Identified a massive retention surge on *International Nurses Day*, revealing healthcare workers as the core "Power User" demographic.
+  * **Engagement Windows:** Identified a strict dual-peak activity rhythm—a mid-day lunch/rounds spike (12:00–14:00) and an end-of-shift spike (17:00–19:00)—confirming behavior is highly constrained by professional work schedules.
+
+* **(e) Strategic Recommendations:**
+  * **Product Strategy:** Deploy a "Recovery Module" demonstrating how 30 extra minutes of sleep improves next-day step capacity to protect mid-week retention.
+  * **Marketing Strategy:** Halt morning alerts. Confine push notifications strictly to the 12:00 PM and 17:00 PM windows, and launch targeted B2B campaigns for healthcare workers.
+  * **Growth (Segment Migration):** Launch a "VIP Ambassador" program utilizing the 16k-step Power Users to pull the "Casual" majority into higher engagement tiers.
+ 
+**Live Dashboard:**
+* <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/HEATH-TECHANALYSIS/Dashboard" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="100"/>
+</a>
+
+---
+
+### 2. 🚖 Ride-Hailing Operations: Bottleneck & Revenue Leakage Analysis  
+
+<a href="https://github.com/TATHAGATA23071998/PROJECTS/tree/main/RIDE%20SERVICE%20PROJECT">
+<img src="https://img.shields.io/badge/Project_Repository-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+**Tools Used:** SQL Server (SSMS) | Python (Pandas) | Tableau | Streamlit  
+
+* **(a) Core Metrics Tracked:** Total Booking Value (₹56.5M) | Success Rate (62%) | Ride Volume (103k) | Driver Cancellations
+
+* **(b) Problem Framing:** Regional operations faced a massive 38% ride failure rate. The executive team needed to definitively answer whether this was a demand-side marketing issue or a supply-side operational bottleneck to stop a ₹56.5M revenue leakage.
+
+* **(c) Technical Execution (Data Modeling):**
+  * Engineered a highly optimized Star Schema in SQL Server to process 100,000+ transaction records for instant executive BI reporting.
+  * Applied **analytical judgment** to preserve baseline metrics by imputing missing wait times with statistical medians instead of dropping rows.
+  * Architected a "Junk Dimension" for unstructured cancellation text, drastically reducing database computational load.
+
+* **(d) Executive Insights:**
+  * **Supply-Side Bottleneck:** Proved the 38% failure rate was 100% supply-side, completely ruling out customer demand issues.
+  * **Platform Manipulation:** Uncovered widespread driver "gaming" behavior (accepting rides but refusing to move to force customer cancellations).
+  * **Payment Risk Correlation:** Identified that "Cash" payments drove high volume but carried the highest operational cancellation risk.
+
+* **(e) Strategic Recommendations:**
+  * **Operational Strategy:** Implement an algorithmic 3-minute GPS penalty to automatically reassign stationary drivers without penalizing customers.
+  * **Marketing Strategy:** Launch aggressive customer discount campaigns for UPI payments to lock in platform revenue and eliminate cash friction.
+  * **Risk Mitigation:** Partner with insurance companies to monitor and maintain vehicle health, directly reducing customer-initiated cancellation rates.
+
+**Live Dashboards:**
+* <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/RIDESERVICEANALYSISDASHBOARD/Dashboard" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="100"/></a>
+* [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://python-app-7a2zufxyiynnnvdy5glrcu.streamlit.app/)
+
+---
+## 🖥️ Interactive Application-Based Dashboards
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/?utm_source=streamlit&utm_medium=referral&utm_campaign=main&utm_content=-ss-streamlit-io-topright)
+
+<a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/vizzes" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
+</a>
+
+---
+## 🛠️ Tools & Skills
+
+**Languages & Tools:** SQL | Python | R | Excel | Power BI | Tableau  
+
+**Analytics Concepts:** EDA | Forecasting | KPI Analysis | OLAP vs OLTP | Business Metrics  
+
+**Domain Exposure:** Banking | Operations | Supply Chain Analytics | Retail Decision-Making  
+
+---
+
+## 🤝 Let's Connect
+<a href="https://www.linkedin.com/in/tathagata-chakraborty-26b03a271/" target="_blank">
+<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+
+<a href="mailto:tathagata4059@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+
+---
+
+## 📊 GitHub Stats
+![Stars](https://img.shields.io/github/stars/TATHAGATA23071998?style=for-the-badge)
+![Followers](https://img.shields.io/github/followers/TATHAGATA23071998?style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&style=for-the-badge)
+![Primary Tools](https://img.shields.io/badge/Primary_Tools-EXCEL%20%7C%20SQL%20%7C%20PYTHON%20%7C%20STREAMLIT%20%7C%20TABLEAU-0B3C5D?style=for-the-badge)
