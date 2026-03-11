@@ -56,7 +56,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
   * **Marketing Strategy:** Confine push notifications strictly to the 12:00 PM lunch window and the 17:00 PM post-shift window, launching targeted B2B                  campaigns for healthcare workers.
   * **Growth (Segment Migration):** Launch a "VIP" program utilizing the Power Users to pull the "Casual" majority into higher engagement tiers.
  
-* Tableau Dashboard - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/HEATH-TECHANALYSIS/Dashboard" target="_blank">
+* Tableau Dashboard - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/HEALTH-TECHANALYSIS/Dashboard" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
 </a>
 
