@@ -36,25 +36,25 @@ I am a Business Analyst with hands-on experience across business banking, supply
 
 * **(a) Core Metrics Tracked:**
   * Average Daily Steps (~7,765)
-  * Average Daily Caloric Burn (~2,339)
-  * Peak Engagement Hours
-  * Daily Active Users (DAU) retention
+  * Average Active Minutes (~231)
+  * Total Unique Users (33)
+  * Average sleep time (~5.8 hrs)
 
-* **(b) The Business Decision (Problem Framing):** The product and marketing teams needed to optimize push notification timing to increase user retention. However,         they lacked a clear "Source of Truth" because user event data was highly fragmented across 18 separate tracking files operating on different timelines.
+* **(b) The Business Decision (Problem Framing):** The company suffered from severe mid-week loss of activity and reduced user engagements which led to customer           churn. The objective was to pivot from a "tracker" to an active "health partner", increasing Customer Lifetime Value (CLTV).
 
 * **(c) Technical Execution & Analytical Judgment:**
   * Designed a robust Python ETL pipeline to consolidate 11 distinct raw datasets into a single, daily-granular Master Fact Table.
-  * Exercised strong analytical judgment during data cleaning: rather than filling missing heart rate data with generic zeros (which would destroy the mathematical     integrity of health metrics), imputed missing data using the user's specific historical averages.
+  * Exercised strong analytical judgment during data cleaning: rather than filling missing heart rate data with generic zeros (which would destroy the                 mathematical integrity of health metrics), imputed missing data using the user's specific historical averages.
 
 * **(d) Stakeholder Delivery & Outcomes:**
-  * Built a 3-tier behavioral dashboard in Tableau tracking granular user activity patterns.
-  * Identified that platform engagement heavily spikes in a narrow late-afternoon window (16:00 - 20:00).
-  * Discovered a severe mid-week user retention slump occurring between Wednesday and Friday.
+  * **Biological Churn:** Correlated mid-week app churn directly to user "Sleep Data" (users averaged a dangerously low 5.8 hours of sleep).
+  * **Domain Context (May 12th Anomaly):** A massive retention surge on *International Nurses Day*, revealing healthcare workers as the core "Power User".
+  *   Identified a strict dual-peak activity rhythm—a mid-day lunch/rounds spike (12:00–14:00) and an end-of-shift spike (17:00–19:00)—confirming behavior is            highly constrained by professional work schedules.
 
 * **(e) Strategic Recommendations:**
-  * Target the 16:00-20:00 engagement burst with short, contextual push notifications to capture users when they are historically most active.
-  * Schedule community social challenges explicitly on weekends to maximize baseline participation, retention, and organic viral spread.
-  * Develop premium leaderboards and advanced metric features specifically targeting the highly active user segment.
+  * **Product Strategy:** Deploy a "Module" demonstrating how 30 extra minutes of sleep improves next-day productivity to protect mid-week retention.
+  * **Marketing Strategy:** Confine push notifications strictly to the 12:00 PM lunch window and the 17:00 PM post-shift window, launching targeted B2B                  campaigns for healthcare workers.
+  * **Growth (Segment Migration):** Launch a "VIP" program utilizing the Power Users to pull the "Casual" majority into higher engagement tiers.
  
 * Tableau Dashboard - <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/HEATH-TECHANALYSIS/Dashboard" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="200"/>
@@ -76,7 +76,7 @@ I am a Business Analyst with hands-on experience across business banking, supply
   * Total Ride Volume (103,024)
   * Cancellations by Drivers > Cancellations by Customers
 
- **(b) The Business Decision (Problem Framing):**  Regional operations were experiencing a massive 38% ride failure rate. The executive team needed to definitively answer whether this was a demand-side marketing issue or a supply-side operational bottleneck in order to stop the ₹56.5M revenue leakage.
+ **(b) The Business Decision (Problem Framing):**  Regional operations were experiencing a massive 38% ride failure rate. The executive team needed to                    definitively answer whether this was a demand-side marketing issue or a supply-side operational bottleneck in order to stop the ₹56.5M revenue leakage.
 
  **(c) Technical Execution & Analytical Judgment:**
   * Engineered a highly optimized Star Schema in SQL Server to process 100,000+ transaction records, ensuring executive BI dashboards loaded instantly.
