@@ -132,7 +132,6 @@ Banking | Operations | Supply Chain Analytics | Retail Decision-Making
 
 ## 📊 GitHub Stats
 ![Stars](https://img.shields.io/github/stars/TATHAGATA23071998?style=for-the-badge)
-![Followers](https://img.shields.io/github/followers/TATHAGATA23071998?style=for-the-badge)
 ![Profile Views](https://komarev.com/ghpvc/?username=Pheonix1998&style=for-the-badge)
 ![Primary Tools](https://img.shields.io/badge/Primary_Tools-EXCEL%20%7C%20SQL%20%7C%20PYTHON%20%7C%20STREAMLIT%20%7C%20TABLEAU-0B3C5D?style=for-the-badge)
 
