@@ -75,7 +75,7 @@ Designed a robust Python ETL pipeline to consolidate 11 distinct raw datasets in
 * **Payment Risk Profile:** Correlated payment methods with cancellation risk, revealing that while "Cash" drives volume, it carries the highest operational failure rate.
 
 **Strategic Recommendations:**
-* **Operational Policy:** Implement a 3-minute algorithmic GPS penalty system to automatically reassign stationary drivers, eliminating customer-side friction.
+* **Operational Policy:** Implement a GPS based penalty system to automatically reassign stationary drivers, eliminating customer-side friction.
 * **Payment Shift:** Launch aggressive discount campaigns for UPI/Digital payments to lock in platform revenue and reduce the cash-based cancellation risk.
 * **Partnerships:** Partner with local insurance and maintenance networks to keep vehicles on the road, reducing mechanical-related driver cancellations.
 
