@@ -89,8 +89,8 @@ I am a Business Analyst with hands-on experience across business banking, supply
   * Correlated payment risk, proving that "Cash" payments generate high volume but carry the highest operational cancellation risk.
 
  **(e) Strategic Recommendations:**
-  * Implement an algorithmic 3-minute GPS penalty system to automatically reassign stationary drivers without penalizing the customer.
-  * Launch aggressive customer discount campaigns for UPI payments to lock in platform revenue and eliminate the physical friction of cash on the street.
+  * Implement a GPS penalty system to automatically reassign stationary drivers without penalizing the customers.
+  * Implement a strong IT Infrastructure to back the daily upi payments and track the ride locations.
   * Partner with insurance companies to look after the vehicles for reducing the customer cancellation rates.
 
 **Live Dashboards:**
