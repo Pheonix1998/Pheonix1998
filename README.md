@@ -214,8 +214,10 @@ Built a star schema for efficient querying, handled unstructured data via junk d
 </details>
 
 **Live Dashboards:**  
-- <a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/RIDESERVICEANALYSISDASHBOARD/Dashboard" target="_blank">Tableau</a>  
-- [Streamlit App](https://python-app-7a2zufxyiynnnvdy5glrcu.streamlit.app/)  
+<br>
+<a href="https://public.tableau.com/app/profile/tathagata.chakraborty5102/viz/RIDESERVICEANALYSISDASHBOARD/Dashboard" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="My Tableau Profile" width="100"/></a>
+&nbsp;&nbsp;&nbsp;
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://python-app-7a2zufxyiynnnvdy5glrcu.streamlit.app/)
 
 ---
 
